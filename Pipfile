@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sphinx-revealjs = "~=2.2.0"
+
+[dev-packages]
+sphinx-watch = "~=0.1.2"
+
+[requires]
+python_version = "3.10"

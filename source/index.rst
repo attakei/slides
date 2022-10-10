@@ -1,0 +1,8 @@
+====
+Home
+====
+
+.. toctree::
+    :glob:
+
+    */index
