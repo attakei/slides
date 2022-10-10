@@ -17,6 +17,7 @@ release = "2022.10.11"
 
 extensions = [
     "sphinx_revealjs",
+    "sphinxcontrib.budoux",
     "sphinxcontrib.sass",
 ]
 
@@ -51,6 +52,9 @@ revealjs_script_plugins = [
 ]
 
 # -- Options for extensions
+# sphinxcontrib-budoux
+budoux_targets = ["h1", "h2", "h3"]
+
 # sphinxcontrib-sass
 sass_src_dir = "_sass"
 sass_out_dir = "_static/css"

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1737c311bd21528c088bcefd74571b3524dff9d1ae6345028dcb830766bebd7f"
+            "sha256": "c01d12e2914c1f842aabfcb5d2344568cbb52c05e96172c8eb1aa8f49ca89557"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -30,6 +30,22 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==2.10.3"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30",
+                "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==4.11.1"
+        },
+        "budoux": {
+            "hashes": [
+                "sha256:183e5a3cf3766b8615c02aa44b03f1ce9cb679cf792cecb58e66762579efa1b2",
+                "sha256:2647e982f0d590d35feae31e14a953aa5c8b19ca3a9ae2095a2e83ac009367a9"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.2.0"
         },
         "certifi": {
             "hashes": [
@@ -194,6 +210,14 @@
             ],
             "version": "==2.2.0"
         },
+        "soupsieve": {
+            "hashes": [
+                "sha256:3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759",
+                "sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==2.3.2.post1"
+        },
         "sphinx": {
             "hashes": [
                 "sha256:5b10cb1022dac8c035f75767799c39217a05fc0fe2d6fe5597560d38e44f0363",
@@ -217,6 +241,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==1.0.2"
+        },
+        "sphinxcontrib-budoux": {
+            "hashes": [
+                "sha256:14faa6f07ad8472d2f9e1b53d1d7842c47df7280bf74a09de0ea15fbd21251d4",
+                "sha256:552e22795062a9bc68a5ae91c17c923615e2c97e9a88a8a15f3e3cb3cbc3d9fb"
+            ],
+            "index": "pypi",
+            "version": "==0.1.5"
         },
         "sphinxcontrib-devhelp": {
             "hashes": [

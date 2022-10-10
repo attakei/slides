@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 sphinx-revealjs = "~=2.2.0"
 sphinxcontrib-sass = "~=0.3.4"
+sphinxcontrib-budoux = "~=0.1.5"
 
 [dev-packages]
 sphinx-watch = "~=0.1.2"
