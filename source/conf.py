@@ -2,7 +2,14 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+import sys
+from pathlib import Path
+
 from sphinx_revealjs.themes import get_theme_path
+
+ext_dir = str(Path(__file__).parents[1] / "extensions")
+if sys.path[-1] != ext_dir:
+    sys.path.append(ext_dir)
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -19,6 +26,7 @@ extensions = [
     "sphinx_revealjs",
     "sphinxcontrib.budoux",
     "sphinxcontrib.sass",
+    "sphinxcontrib_pypi_role",
 ]
 
 templates_path = ["_templates"]
