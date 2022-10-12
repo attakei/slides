@@ -23,10 +23,13 @@ release = "2022.10.11"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "sphinx.ext.todo",
     "sphinx_revealjs",
     "sphinxcontrib.budoux",
+    "sphinxcontrib.oembed",
     "sphinxcontrib.sass",
     "sphinxcontrib_pypi_role",
+    "sphinxemoji.sphinxemoji",
 ]
 
 templates_path = ["_templates"]
@@ -41,7 +44,6 @@ html_theme = "alabaster"
 html_static_path = ["_static"]
 
 # -- Options for REVEALJS output
-revealjs_style_theme = "css/my-solarized.css"
 revealjs_static_path = ["_static"]
 revealjs_css_files = [
     "revealjs4/plugin/highlight/zenburn.css",

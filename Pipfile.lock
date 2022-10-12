@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c01d12e2914c1f842aabfcb5d2344568cbb52c05e96172c8eb1aa8f49ca89557"
+            "sha256": "77fa4c43e5be5a57b0f225f4f83e2439d5cc00ae5ea3b7d1bb2ddd609f480dfe"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -274,6 +274,14 @@
             "markers": "python_version >= '3.5'",
             "version": "==1.0.1"
         },
+        "sphinxcontrib-oembed": {
+            "hashes": [
+                "sha256:48d3dae47b36f3e6e99cccf6488b45866f0bf73b37ae3672ad42c625053aff7c",
+                "sha256:5407f4de7ce9587a89c45099de31a0e861e40daef193722811dd0933f912c81e"
+            ],
+            "index": "pypi",
+            "version": "==0.2.1"
+        },
         "sphinxcontrib-qthelp": {
             "hashes": [
                 "sha256:4c33767ee058b70dba89a6fc5c1892c0d57a54be67ddd3e7875a18d14cba5a72",
@@ -297,6 +305,13 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==1.1.5"
+        },
+        "sphinxemoji": {
+            "hashes": [
+                "sha256:27861d1dd7c6570f5e63020dac9a687263f7481f6d5d6409eb31ecebcc804e4c"
+            ],
+            "index": "pypi",
+            "version": "==0.2.0"
         },
         "urllib3": {
             "hashes": [

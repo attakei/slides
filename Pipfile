@@ -7,6 +7,8 @@ name = "pypi"
 sphinx-revealjs = "~=2.2.0"
 sphinxcontrib-sass = "~=0.3.4"
 sphinxcontrib-budoux = "~=0.1.5"
+sphinxcontrib-oembed = "~=0.2.1"
+sphinxemoji = "~=0.2.0"
 
 [dev-packages]
 sphinx-watch = "~=0.1.2"
