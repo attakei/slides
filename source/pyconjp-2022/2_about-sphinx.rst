@@ -1,6 +1,8 @@
 Sphinx イントロダクション
 =========================
 
+.. 4 / 2
+
 アンケート
 ----------
 
@@ -21,8 +23,8 @@ Sphinxとはなにか
 Python製のドキュメンテーションビルダー
 
 * ソーステキストを束ねて「ドキュメント」として扱う
-* メインソースはreStructuredTextし、内部でdocutilsを利用
 * 「ドキュメント」からHTML・PDFなどを生成する
+* メインソースはreStructuredTextし、内部でdocutilsを利用
 
 .. revealjs-break::
 

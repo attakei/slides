@@ -1,6 +1,8 @@
 Sphinx拡張ショーケース
 ======================
 
+.. 2 / 9
+
 この後に例示用に出てくるSphinx拡張の紹介
 
 sphinxcontrib-budoux
