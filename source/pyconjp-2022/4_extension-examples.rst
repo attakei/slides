@@ -1,29 +1,9 @@
-Sphinx拡張ショーケース
-======================
+Sphinx拡張 ショーケース
+=======================
 
 .. 2 / 9
 
 この後に例示用に出てくるSphinx拡張の紹介
-
-sphinxcontrib-budoux
---------------------
-
-BudouXを使って、日本語文の改行をいい感じに出来るようにする拡張。
-
-.. container:: r-stack
-
-    .. revealjs-fragments::
-
-        .. figure:: _images/java-before.png
-
-        .. figure:: _images/java-after.png
-
-.. revealjs-break::
-
-分類：出力に関する拡張
-
-* Sphinxメイン処理内で行われた「ソースをもとにしたHTML」を再加工する
-* 出力に **割り込んで** の加工が必要
 
 sphinxcontrib-oembed
 --------------------
@@ -67,3 +47,23 @@ sphinxcontrib-oembed
 * | ソース読み込み時にHTTP通信する
   | => ディレクティブの実装がちょっと複雑
 * とはいえ、 **ディレクティブとノードで完結する**
+
+sphinxcontrib-budoux
+--------------------
+
+BudouXを使って、日本語文の改行をいい感じに出来るようにする拡張。
+
+.. container:: r-stack
+
+    .. revealjs-fragments::
+
+        .. figure:: _images/java-before.png
+
+        .. figure:: _images/java-after.png
+
+.. revealjs-break::
+
+分類：出力に関する拡張
+
+* Sphinxメイン処理内で行われた「ソースをもとにしたHTML」を再加工する
+* 出力に **割り込んで** の加工が必要

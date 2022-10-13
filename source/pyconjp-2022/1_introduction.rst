@@ -68,7 +68,7 @@
 * Sphinxの概要
 * Sphinx拡張の概要
 * Sphinx拡張の実装アプローチ
-* Extra
+* And more
 
 (補足)
 ------

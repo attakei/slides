@@ -1,21 +1,9 @@
 Sphinx拡張の実装アプローチ
 ==========================
 
-..  15.5 / 11
+..  13-15.5 / 11
 
 基本実装〜編
-
-.. revealjs-break::
-    :notitle:
-
-ここからはの話は、
-
-
-Sphinx拡張を実装する際によく取り扱う箇所
-
-.. revealjs-fragments::
-
-    = ポイントとして抑えておくと良い箇所
 
 再掲：最低限「体裁が整っている」コード
 --------------------------------------
@@ -173,6 +161,8 @@ Sphinx本体には無いディレクティブなので、自作＆登録が必�
 「既存のビルダーの枠組みではどうにもならない出力」をしたいときに、
 頑張って用意する存在。
 
+例： :pypi:`sphinx-revealjs` 内の ``revealjs`` ビルダー
+
 Sphinxコアイベントとハンドラ
 ----------------------------
 
@@ -268,6 +258,8 @@ Sphinx拡張からは、 ``app.connect()`` で関数を登録するだけで良�
 .. code-block:: python
 
     def apply_budoux(app, page_name, template_name, context, doctree):
+        # body ... ドキュメントHTMLの中身
+        # update_body内で加工する
         context["body"] = update_body(context["body"])
 
     def setup(app):

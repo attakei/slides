@@ -11,8 +11,8 @@ Sphinx イントロダクション
    * Sphinx、知ってますか？
    * Sphinx、使ってますか？
 
-Sphinxとはなにか
-----------------
+Sphinxとは何か
+--------------
 
 .. revealjs-notes::
 
