@@ -1,0 +1,44 @@
+name: 'Deploy to site'
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          architecture: x64
+          python-version: '3.10'
+          cache: 'pipenv'
+      - name: Install dependencies
+        run: |
+          pip install pipenv
+          pipenv install
+      - name: Build site contents
+        run: |
+          pipenv run make dirrevealjs
+          pipenv run make dirhtml
+          cp build/dirhtml/index.html build/dirrevealjs/index.html
+      - uses: actions/upload-artifact@v3
+        with:
+          name: site-contents
+          path: build/dirrevealjs
+  upload:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: site-contents
+          path: public
+      - name: Publish
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages publish public --project-name=${{ secrets.CLOUDFLARE_PAGES_NAME }}
