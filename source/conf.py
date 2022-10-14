@@ -59,6 +59,10 @@ revealjs_script_plugins = [
         "src": "revealjs4/plugin/highlight/highlight.js",
         "name": "RevealHighlight",
     },
+    {
+        "src": "revealjs4/plugin/notes/notes.js",
+        "name": "RevealNotes",
+    },
 ]
 
 # -- Options for extensions
