@@ -9,7 +9,7 @@ Sphinxを通して考える、「拡張」の仕方
 :author: Kazuya Takei / @attakei
 :date: 2022/10/14
 :event: PyCon JP 2022
-:hashtags: `#pyconjp <https://twitter.com/hashtag/pyconjp>`_
+:hashtags: `#pyconjp <https://twitter.com/hashtag/pyconjp>`_ , `#pyconjp_1 <https://twitter.com/hashtag/pyconjp_1>`_
 
 .. include:: 1_introduction.rst
 
