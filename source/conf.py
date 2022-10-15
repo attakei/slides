@@ -46,6 +46,7 @@ html_static_path = ["_static"]
 # -- Options for REVEALJS output
 revealjs_static_path = ["_static"]
 revealjs_css_files = [
+    "css/default.css",
     "revealjs4/plugin/highlight/zenburn.css",
 ]
 revealjs_script_conf = {
@@ -77,4 +78,5 @@ sass_include_paths = [
 ]
 sass_targets = {
     "my-solarized.scss": "my-solarized.css",
+    "default.scss": "default.css",
 }
