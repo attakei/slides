@@ -77,6 +77,7 @@ sass_include_paths = [
     get_theme_path("sphinx_revealjs") / "static/revealjs4/css/theme",
 ]
 sass_targets = {
+    "pyconjp-2022-lt.scss": "pyconjp-2022-lt.css",
     "my-solarized.scss": "my-solarized.css",
     "default.scss": "default.css",
 }

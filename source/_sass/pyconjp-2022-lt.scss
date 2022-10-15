@@ -1,0 +1,12 @@
+@import "source/beige";
+
+.reveal {
+  section > h1 {
+    font-size: 2.5em;
+  }
+  section:nth-child(1) {
+    dl > dt, dl > dd {
+      font-size: 50%;
+    }
+  }
+}
