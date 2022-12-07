@@ -1,5 +1,31 @@
-@import "source/beige";
+// Default mixins and settings -----------------
+@import "template/mixins";
+@import "template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Lato', 'Noto Sans JP', sans-serif;
+$headingFont: 'League Gothic', 'Impact', 'Noto Sans JP', sans-serif;
+$mainColor: #333;
+$headingColor: #333;
+$headingTextShadow: none;
+$backgroundColor: #f7f3de;
+$linkColor: #8b743d;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(79, 64, 28, 0.99);
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+
+// Background generator
+@mixin bodyBackground() {
+        @include radial-gradient( rgba(247,242,211,1), rgba(255,255,255,1) );
+}
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
 
 .reveal {
   section > h1 {
@@ -11,3 +37,6 @@
     }
   }
 }
+
+// Theme template ------------------------------
+@import "template/theme";
