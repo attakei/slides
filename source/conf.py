@@ -26,6 +26,7 @@ release = "2022.10.11"
 extensions = [
     "sphinx.ext.todo",
     "sphinx_revealjs",
+    "sphinx_revealjs.ext.screenshot",
     "sphinxcontrib.budoux",
     "sphinxcontrib.oembed",
     "sphinxcontrib.sass",

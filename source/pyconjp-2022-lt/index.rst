@@ -1,3 +1,6 @@
+:og:image: _images/ogp/pyconjp-2022-lt/index.png
+:og:description: PyCon JP 2022のアフターパーティー内で発表したLTの資料です
+
 =================================================
 PipedreamでPythonistaに優しい(?)ワークフロー構築R
 =================================================
