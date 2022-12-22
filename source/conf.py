@@ -2,6 +2,7 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
 import sys
 from pathlib import Path
 
@@ -30,6 +31,7 @@ extensions = [
     "sphinxcontrib.sass",
     "sphinxcontrib_pypi_role",
     "sphinxemoji.sphinxemoji",
+    "sphinxext.opengraph",
 ]
 
 templates_path = ["_templates"]
@@ -81,3 +83,11 @@ sass_targets = {
     "my-solarized.scss": "my-solarized.css",
     "default.scss": "default.css",
 }
+
+# sphinxext-opengraph
+ogp_site_url = os.environ.get("SITE_URLBASE", "http://localhost:8000/")
+ogp_type = "article"
+ogp_custom_meta_tags = [
+    '<meta name="twitter:card" content="summary_large_image" >',
+    '<meta name="twitter:site" content="@attakei" >',
+]
