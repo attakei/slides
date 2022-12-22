@@ -92,3 +92,4 @@ ogp_custom_meta_tags = [
     '<meta name="twitter:card" content="summary_large_image" >',
     '<meta name="twitter:site" content="@attakei" >',
 ]
+ogp_enable_meta_description = True
