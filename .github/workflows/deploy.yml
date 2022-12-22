@@ -19,7 +19,7 @@ jobs:
         run: |
           pip install pipenv
           pipenv install
-          pipenv ru playwright install
+          pipenv run playwright install
       - name: Build site contents
         run: |
           pipenv run make dirrevealjs
