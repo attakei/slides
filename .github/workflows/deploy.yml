@@ -25,6 +25,8 @@ jobs:
           pipenv run make dirrevealjs
           pipenv run make dirhtml
           cp build/dirhtml/index.html build/dirrevealjs/index.html
+        env:
+          SITE_URLBASE: ${{ secrets.SITE_URLBASE }}
       - uses: actions/upload-artifact@v3
         with:
           name: site-contents
