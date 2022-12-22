@@ -18,7 +18,7 @@ if sys.path[-1] != ext_dir:
 project = "attakei's presentations"
 copyright = "2022, Kazuya Takei"
 author = "Kazuya Takei"
-release = "2022.10.11"
+release = "2022.12.23"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
