@@ -1,3 +1,6 @@
+:og:image: _images/ogp/jtf-2021w/index.png
+:og:description: July Tech Festa 2021 winterのトークセッション発表したプレゼンテーションです
+
 ================================
 プレゼン？それもSphinxで出来るよ
 ================================
