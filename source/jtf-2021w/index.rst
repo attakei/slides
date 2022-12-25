@@ -12,16 +12,16 @@
 :Event: `July Tech Festa 2021 winter <https://techfesta.connpass.com/event/193966/>`_
 :Hashtag: `#JTF2021w_d <https://twitter.com/hashtag/JTF2021w_d>`_
 
-.. include:: _introduction.rst
+.. include:: 1_introduction.rst
 
-.. include:: _sphinx-basic.rst
+.. include:: 2_sphinx-basic.rst
 
 -> NEXT ->
 ==========
 
 .. ここまでで、7分ぐらいが目安
 
-.. include:: _sphinx-presentation.rst
+.. include:: 3_sphinx-presentation.rst
 
 -> NEXT ->
 ==========
@@ -30,8 +30,8 @@
 
 ここからのメインは ``sphinx-revealjs``
 
-.. include:: _sphinx-revealjs.rst
+.. include:: 4_sphinx-revealjs.rst
 
 .. ここまでで、20分ぐらいが目安
 
-.. include:: _conclusion.rst
+.. include:: 5_conclusion.rst

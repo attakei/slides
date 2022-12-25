@@ -12,14 +12,14 @@
 
 .. .. include:: 0-pdf-edition.rst
 
-.. include:: 1-introduction.rst
+.. include:: 1_introduction.rst
 
-.. include:: 2-about-plugin.rst
+.. include:: 2_about-plugin.rst
 
-.. include:: 3-plugin-as-oss.rst
+.. include:: 3_plugin-as-oss.rst
 
-.. include:: 4-develop-plugin.rst
+.. include:: 4_develop-plugin.rst
 
-.. include:: 5-cautions.rst
+.. include:: 5_cautions.rst
 
-.. include:: 6-conclusion.rst
+.. include:: 6_conclusion.rst
