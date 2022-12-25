@@ -71,6 +71,9 @@ revealjs_script_plugins = [
 ]
 
 # -- Options for extensions
+# sphinx-revealjs.ext.screenshot
+revealjs_screenshot_excludes = ["*/?_*"]
+
 # sphinxcontrib-budoux
 budoux_targets = ["h1", "h2", "h3"]
 
