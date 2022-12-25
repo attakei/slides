@@ -11,6 +11,7 @@ sphinxcontrib-oembed = "~=0.2.1"
 sphinxemoji = "~=0.2.0"
 sphinxext-opengraph = "~=0.7.4"
 rst-pypi-ref = "~=0.1.1"
+sphinxcontrib-blockdiag = "~=3.0.0"
 
 [dev-packages]
 sphinx-watch = "~=0.1.2"

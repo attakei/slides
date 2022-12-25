@@ -28,6 +28,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_revealjs",
     "sphinx_revealjs.ext.screenshot",
+    "sphinxcontrib.blockdiag",
     "sphinxcontrib.budoux",
     "sphinxcontrib.oembed",
     "sphinxcontrib.sass",
