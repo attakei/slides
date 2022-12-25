@@ -40,7 +40,7 @@
 AD：株式会社ニジボックス
 ------------------------
 
-.. image:: _images/logo-nijibox.svg
+.. image:: ../_images/nijibox/logo-nijibox.svg
     :width: 60%
     :align: center
 
@@ -49,7 +49,7 @@ AD：株式会社ニジボックス
 
 .. revealjs-break::
 
-.. image:: _images/logo-postd.png
+.. image:: ../_images/nijibox/logo-postd.png
     :width: 50%
     :align: center
 
