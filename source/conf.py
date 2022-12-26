@@ -88,6 +88,7 @@ sass_targets = {
     "my-solarized.scss": "my-solarized.css",
     "my-solarized-nijibox.scss": "my-solarized-nijibox.css",
     "default.scss": "default.css",
+    "sphinxconjp-2018.scss": "sphinxconjp-2018.css"
 }
 
 # sphinxext-opengraph
