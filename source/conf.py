@@ -86,6 +86,7 @@ sass_include_paths = [
 sass_targets = {
     "pyconjp-2022-lt.scss": "pyconjp-2022-lt.css",
     "my-solarized.scss": "my-solarized.css",
+    "my-solarized-nijibox.scss": "my-solarized-nijibox.css",
     "default.scss": "default.css",
 }
 
