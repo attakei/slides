@@ -1,3 +1,6 @@
+:og:image: _images/ogp/pyconjp-2020/index.png
+:og:description: PyCon JP 2020 online のトークセッション発表したプレゼンテーションです
+
 =====================================================
 Cloud RunとFastAPIで、ChatBotをミニマムスタートしよう
 =====================================================
