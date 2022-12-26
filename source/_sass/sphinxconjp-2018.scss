@@ -1,0 +1,123 @@
+// -------------------------------------
+// Moon color setting
+//
+// Usage:
+//   - Create theme source
+//   - Import this source on top of theme souce
+//   - Build SASS
+// -------------------------------------
+// Default mixins and settings -----------------
+@import "template/mixins";
+@import "template/settings";
+
+// Include fonts
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p);
+// ---------------------------------------------
+
+// Solarized colors
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: $base1;
+$headingColor: $base2;
+$headingTextShadow: none;
+$backgroundColor: $base03;
+$linkColor: $blue;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: $magenta;
+
+$mainFont: "Mplus 1p";
+$mainFontSize: 32px;
+$headingFont: $mainFont;
+$heading1Size: $heading2Size;// -------------------------------------
+// My Reveal.js base layout
+//
+// Usage:
+//   - Create theme source
+//   - Import this source on last of theme souce
+//   - Build SASS
+// -------------------------------------
+@import 'template/theme';
+
+
+// Print layout
+.print-pdf .reveal .slides > section,
+.print-pdf .reveal .slides > section > section {
+	min-height: 770px !important;
+	position: relative !important;
+}
+
+// Layout
+.reveal .slides > section:not(:first-child),
+.reveal .slides > section > section {
+	min-height: 100% !important;
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+	position: absolute !important;
+	top: 0 !important;
+	text-align: left !important;
+}
+
+.reveal .slides > section {
+  h3 {
+    text-align: left;
+    top: 0;
+  }
+  dl {
+    position: absolute;
+    text-align: left !important;
+    margin-left: 0px;
+    right: 0;
+    dt {
+      float: left;
+      clear: left;
+    }
+    dt::after {
+      content: ": ";
+    }
+    dd {
+      float: left;
+      margin-left: 1rem;
+    }
+  }
+  img {
+    background: rgba(0,0,0,0);
+    border: none;
+  }
+  pre {
+    font-family: monospace;
+    font-size: 100%;
+  }
+}
+
+.reveal .slides > section {
+  div.flex {
+    display: -webkit-flex;
+    display: flex;
+    div.half {
+      width: 50%;
+      -webkit-flex: 1;
+      flex: 1;
+    }
+  }
+}
+
+.strike {
+  text-decoration: line-through;
+}
