@@ -1,0 +1,11 @@
+# ------------------
+# RedHat系OSのマシンで、Apacheを使えるようにするPlaybook
+# ------------------
+- hosts: local
+  # sudoが必要なケースではbecomeを指定する
+  become: yes
+  tasks:
+    # 1個ずつ「モジュール」を指定する
+    - yum:
+        # nameでパッケージ名を指定
+        name: httpd
