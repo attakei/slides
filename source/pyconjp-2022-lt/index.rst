@@ -89,9 +89,9 @@ Pipedreamのライバル
 
 アクションを自作出来る。（実際の動き）
 
-.. raw:: html
-
-    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/Y18v-HsxEAU?feature=oembed&amp;enablejsapi=1" title="Demo for custom action on Pipedream" width="640" height="480" frameborder="0"></iframe>
+.. oembed:: https://www.youtube.com/watch?v=Y18v-HsxEAU
+    :maxwidth: 640
+    :maxheight: 480
 
 カスタムコードの対応言語
 ------------------------
