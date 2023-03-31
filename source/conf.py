@@ -24,13 +24,13 @@ release = "2022.12.23"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "oembedpy.ext.sphinx",
     "rst_pypi_ref.sphinx",
     "sphinx.ext.todo",
     "sphinx_revealjs",
     "sphinx_revealjs.ext.screenshot",
     "sphinxcontrib.blockdiag",
     "sphinxcontrib.budoux",
-    "sphinxcontrib.oembed",
     "sphinxcontrib.sass",
     "sphinxemoji.sphinxemoji",
     "sphinxext.opengraph",
