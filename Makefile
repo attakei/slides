@@ -5,7 +5,7 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = source
+SOURCEDIR     = contents
 BUILDDIR      = build
 
 # Put it first so that "make" without argument is like "make help".
@@ -13,7 +13,7 @@ help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 local:
-	sphinx-autobuild --re-ignore='source/_static/css/.+' -b dirrevealjs source build/dirrevealjs $(O)
+	sphinx-autobuild --re-ignore='contents/_static/css/.+' -b dirrevealjs contents build/dirrevealjs $(O)
 
 .PHONY: help local Makefile
 
