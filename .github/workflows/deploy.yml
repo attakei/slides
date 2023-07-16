@@ -44,4 +44,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages publish public --project-name=${{ secrets.CLOUDFLARE_PAGES_NAME }}
+          command: pages deploy public --project-name=${{ secrets.CLOUDFLARE_PAGES_NAME }}
