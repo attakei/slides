@@ -34,6 +34,7 @@ extensions = [
     "sphinxcontrib.sass",
     "sphinxemoji.sphinxemoji",
     "sphinxext.opengraph",
+    "sphinxnotes.strike",
 ]
 
 templates_path = ["_templates"]
@@ -51,13 +52,15 @@ html_static_path = ["_static"]
 revealjs_static_path = ["_static"]
 revealjs_css_files = [
     "css/default.css",
-    "revealjs4/plugin/highlight/zenburn.css",
+    "css/footnotes.css",
+    "css/a11y-light.css",
 ]
 revealjs_script_conf = {
     "controls": False,
     "hash": True,
     "center": False,
     "transition": "none",
+
 }
 revealjs_script_plugins = [
     {
