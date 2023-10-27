@@ -34,6 +34,7 @@ extensions = [
     "sphinxcontrib.sass",
     "sphinxemoji.sphinxemoji",
     "sphinxext.opengraph",
+    "sphinxnotes.strike",
 ]
 
 templates_path = ["_templates"]
@@ -51,13 +52,15 @@ html_static_path = ["_static"]
 revealjs_static_path = ["_static"]
 revealjs_css_files = [
     "css/default.css",
-    "revealjs4/plugin/highlight/zenburn.css",
+    "css/footnotes.css",
+    "css/a11y-light.css",
 ]
 revealjs_script_conf = {
     "controls": False,
     "hash": True,
     "center": False,
     "transition": "none",
+
 }
 revealjs_script_plugins = [
     {
@@ -86,6 +89,7 @@ sass_include_paths = [
 sass_targets = {
     "pyconjp-2022-lt.scss": "pyconjp-2022-lt.css",
     "my-solarized.scss": "my-solarized.css",
+    "my-solarized-large.scss": "my-solarized-large.css",
     "my-solarized-nijibox.scss": "my-solarized-nijibox.css",
     "my-solarized-nijibox-tr.scss": "my-solarized-nijibox-tr.css",
     "default.scss": "default.css",
