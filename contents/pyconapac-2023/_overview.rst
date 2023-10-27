@@ -20,7 +20,7 @@
         * 株式会社ニジボックス
         * **趣味系Pythonista** <= こっち
 
-          * ライブラリ・拡張系を作りがち
+          * `ライブラリ・拡張系 <https://github.com/atsphinx>`_ を作りがち
           * Sphinxでプレゼンテーションしたがる人
 
     .. container:: one-of-third
