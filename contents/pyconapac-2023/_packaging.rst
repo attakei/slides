@@ -1,7 +1,7 @@
 Pythonパッケージを開発する
 ==========================
 
-.. revealjs-break:: 14
+.. revealjs-notes:: 14
 
 基本的な流れ
 ------------
@@ -170,12 +170,10 @@ PyPIにsdist,bdistを登録する。
 
     .. figure:: _images/api-token-before.png
         :align: center
-        :width: 80%
         :class: fragment
 
     .. figure:: _images/api-token-after.png
         :align: center
-        :width: 80%
         :class: fragment
 
 .. revealjs-break::
