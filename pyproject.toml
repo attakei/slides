@@ -1,0 +1,28 @@
+[project]
+name = "slides"
+version = "1.0.0"
+description = "My public presentations"
+authors = [
+    { name = "Kazuya Takei", email = "myself@attakei.net" }
+]
+dependencies = [
+    "oembedpy~=0.4.0",
+    "sphinx-revealjs[screenshot]~=2.5.0",
+    "sphinxcontrib-sass~=0.3.4",
+    "sphinxcontrib-budoux~=0.1.5",
+    "sphinxemoji~=0.2.0",
+    "sphinxext-opengraph~=0.7.4",
+    "rst-pypi-ref~=0.1.1",
+    "sphinxcontrib-blockdiag~=3.0.0",
+    "sphinxnotes-strike",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+hello = "slides:hello"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
