@@ -25,4 +25,6 @@ hello = "slides:hello"
 [tool.rye]
 managed = true
 virtual = true
-dev-dependencies = []
+dev-dependencies = [
+    "esbonio>=0.16.4",
+]
