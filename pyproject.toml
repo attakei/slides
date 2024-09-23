@@ -22,9 +22,8 @@ requires-python = ">= 3.8"
 [project.scripts]
 hello = "slides:hello"
 
-[tool.rye]
+[tool.uv]
 managed = true
-virtual = true
 dev-dependencies = [
     "esbonio>=0.16.4",
 ]

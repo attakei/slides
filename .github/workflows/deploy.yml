@@ -10,23 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          architecture: x64
-          python-version: '3.12'
-          cache: 'pip'
-      - name: Setup venv
+      - uses: astral-sh/setup-uv@v2
+      - name: Setup env
         run: |
-          pip install uv
-          uv venv
-      - name: Install dependencies
-        run: |
-          uv pip install -r requirements.lock
-          .venv/bin/playwright install
+          uv sync --frozen
+          uv run playwright install
       - name: Build site contents
         run: |
-          source .venv/bin/activate
-          make dirrevealjs dirhtml
+          uv run make dirrevealjs dirhtml
           cp build/dirhtml/index.html build/dirrevealjs/index.html
         env:
           SITE_URLBASE: ${{ secrets.SITE_URLBASE }}
