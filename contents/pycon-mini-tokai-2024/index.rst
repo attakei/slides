@@ -4,17 +4,11 @@ pytestでRust製CLIをe2eテストしてみよう
 
 .. pytest-e2e-for-rust-cli
 
-はじめに
-========
+.. revealjs-slide::
+    :conf: {"width":1920,"height":1080}
+    :theme: css/my-solarized-large.css
 
-このトークの概要
-----------------
-
-お前誰よ？
-----------
-
-株式会社ニジボックス
---------------------
+.. include:: _overview.rst
 
 本日の脇役: age-cli
 ===================
@@ -104,7 +98,7 @@ Rustの辛いところ
 * LSPなどを駆使して「やりたいこと」の実現ぐらいにはたどり着けたが
 * 「動作の担保」までRustで頑張るまでが大変
 
-.. revealjs-fragment::
+.. revealjs-fragments::
 
    →ここはRustなくても平気なのでは？
 
