@@ -90,6 +90,7 @@ sass_targets = {
     "pyconjp-2022-lt.scss": "pyconjp-2022-lt.css",
     "my-solarized.scss": "my-solarized.css",
     "my-solarized-large.scss": "my-solarized-large.css",
+    "my-solarized-large-udgothic.scss": "my-solarized-large-udgothic.css",
     "my-solarized-nijibox.scss": "my-solarized-nijibox.css",
     "my-solarized-nijibox-tr.scss": "my-solarized-nijibox-tr.css",
     "default.scss": "default.css",
