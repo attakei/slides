@@ -6,7 +6,12 @@ pytestでRust製CLIをe2eテストしてみよう
 
 .. revealjs-slide::
     :conf: {"width":1920,"height":1080}
-    :theme: css/my-solarized-large.css
+    :theme: css/my-solarized-large-udgothic.css
+
+:author: Kazuya Takei / @attakei
+:date: 2023/11/16
+:event: PyCon mini 東海 2024
+:hashtags:
 
 .. include:: _overview.rst
 
@@ -148,5 +153,4 @@ capsysフィクスチャ
 conftest.py
 -----------
 
-まとめ
-======
+.. include:: _conclusion.rst
