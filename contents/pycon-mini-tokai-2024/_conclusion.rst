@@ -20,4 +20,6 @@ Thanks
 ------
 
 * `NIJIBOX Co., Ltd. <https://www.nijibox.jp>`_
+* `Reveal.js <https://revealjs.com/>`_
+* Sphinx+翻訳 Hack-a-thon
 * GitHubの各サービス
