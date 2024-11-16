@@ -35,12 +35,14 @@
 
         * attakei (X, GitHub, etc)
         * 株式会社ニジボックス
-        * Python は 2.7ぐらいから？（GAE for Python出たあたり）
         * **趣味系Pythonista** <= こっち
 
           * ライブラリ・拡張系を作りがち
           * Sphinx拡張生成マシーン
           * Sphinxでプレゼンテーションしたがる人
+
+        * | Python は 2.6ぐらいから？
+          | （GAE for Python出たあたり）
 
     .. container:: one-of-third
 
