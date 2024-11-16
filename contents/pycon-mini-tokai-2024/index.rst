@@ -11,7 +11,7 @@ pytestでRust製CLIをe2eテストしてみよう
 :author: Kazuya Takei / @attakei
 :date: 2023/11/16
 :event: PyCon mini 東海 2024
-:hashtags:
+:hashtags: `#pycontokai <https://x.com/hashtag/pycontokai>`_
 
 .. include:: _overview.rst
 .. include:: _age-cli.rst
