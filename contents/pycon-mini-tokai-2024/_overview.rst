@@ -1,17 +1,31 @@
 はじめに
 ========
 
-.. revealjs-notes:: 3min
-
 このトークの概要
 ----------------
 
+このトークでは、
+
+* PythonistaがRustでCLIを作った際に
+* 試行錯誤の結果として
+* 品質担保をRustではなくPythonで実施した
+
+という話をします。
+
+.. revealjs-break::
+
+このトークでは、
+
+* Rust側の細かい話
+* 作ったCLI自体の細かい話
+* 「超テクニカル」な使い方
+
+という話はしません。
+
+（考え方とエッセンシャルな技法が中心です）
+
 お前誰よ
 --------
-
-.. revealjs-notes::
-
-    在籍的にはニジボックス。ただし、個人活動に近い領域でのPyCon JP参加。
 
 .. container:: flex
 
@@ -23,7 +37,8 @@
         * 株式会社ニジボックス
         * **趣味系Pythonista** <= こっち
 
-          * `ライブラリ・拡張系 <https://github.com/atsphinx>`_ を作りがち
+          * ライブラリ・拡張系を作りがち
+          * Sphinx拡張生成マシーン
           * Sphinxでプレゼンテーションしたがる人
 
     .. container:: one-of-third
@@ -65,3 +80,6 @@ https://www.nijibox.jp
     .. container:: one-of-third
 
         .. figure:: /_images/nijibox/logo-postd.png
+
+.. revealjs-notes:: 3min
+
