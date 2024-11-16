@@ -60,5 +60,8 @@ body { font-size: 150%;}
             max-height: 640px;
         }
     }
+  background-image: url('/_static/images/pycon-mini-tokai-2024.png');
+    background-repeat: no-repeat;
+    background-position: 98% 2%;
+    background-size: 5%;
 }
-@import "https://cdnjs.cloudflare.com/ajax/libs/xterm/5.5.0/xterm.min.css";
