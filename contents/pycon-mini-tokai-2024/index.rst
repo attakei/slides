@@ -9,7 +9,7 @@ pytestでRust製CLIをe2eテストしてみよう
     :theme: css/my-solarized-large-udgothic.css
 
 :author: Kazuya Takei / @attakei
-:date: 2023/11/16
+:date: 2024/11/16
 :event: PyCon mini 東海 2024
 :hashtags: `#pycontokai <https://x.com/hashtag/pycontokai>`_
 
