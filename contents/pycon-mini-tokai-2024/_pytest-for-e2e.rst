@@ -7,7 +7,7 @@ e2eとしてのpytest
 * 「Pythonのモジュール内動作確認」としては使わない。
 * 「Pythonを使ったコマンド実行結果の検証」のラッパーとして使う。
 
-「FastAPIのWebアプリ開発時にTestClientを使う」「スナップショットテストをする」あたりと近い。
+「FastAPIのWebアプリ開発時にTestClientを使う」あたりと近い。
 
 .. revealjs-break::
    :notitle:
