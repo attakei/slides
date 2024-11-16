@@ -1,3 +1,6 @@
+:og:image: _images/ogp/pycon-mini-tokai-2024/index.png
+:og:description: PyCon mini 東海 2024のトークセッション発表したプレゼンテーションです
+
 ======================================
 pytestでRust製CLIをe2eテストしてみよう
 ======================================
