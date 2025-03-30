@@ -1,5 +1,10 @@
 version = 1
+revision = 1
 requires-python = ">=3.8"
+resolution-markers = [
+    "python_full_version >= '3.9'",
+    "python_full_version < '3.9'",
+]
 
 [[package]]
 name = "alabaster"
@@ -582,16 +587,38 @@ wheels = [
 
 [[package]]
 name = "oembedpy"
-version = "0.4.0"
+version = "0.6.0"
 source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "httpx" },
-    { name = "lxml" },
+resolution-markers = [
+    "python_full_version < '3.9'",
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0a/e3/133a7f5c76b5c5c5c93419f2f7bb3444a8558292369a40907cc949e1a555/oEmbedPy-0.4.0.tar.gz", hash = "sha256:ced752cb17ac5f636d0a5a5dec29019dc5d592bdc6adebd4f7c6d88d273ac7a6", size = 18276 }
+dependencies = [
+    { name = "beautifulsoup4", marker = "python_full_version < '3.9'" },
+    { name = "httpx", marker = "python_full_version < '3.9'" },
+    { name = "lxml", marker = "python_full_version < '3.9'" },
+    { name = "platformdirs", marker = "python_full_version < '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4c/63/8a521a6bb30c76aa864320ae6561be04c00bda0a98ddb9b76d3317bdc0eb/oembedpy-0.6.0.tar.gz", hash = "sha256:d6520f194900e90e0305f7817ad4587258abf2d67d5e39717d04383fdd991836", size = 20721 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4a/9d/83facb3681006dfe1c30cdd2209153a44f06265e878bc7dbca25e8114bce/oembedpy-0.4.0-py3-none-any.whl", hash = "sha256:3f72995f549c88a9e44b64c4dfc4a07967665f6fb139ab2b6b6619f717d4a0f8", size = 12332 },
+    { url = "https://files.pythonhosted.org/packages/e2/3c/a89b90258f360531b4dd1f42b9c03bc40b2ebd1ffebc221f4178e40f5bd5/oembedpy-0.6.0-py3-none-any.whl", hash = "sha256:a756fd28d37a8a32e657ee23188e4df7af6326dbf2933b2ca29b7e93f691ed52", size = 13120 },
+]
+
+[[package]]
+name = "oembedpy"
+version = "0.8.1"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.9'",
+]
+dependencies = [
+    { name = "beautifulsoup4", marker = "python_full_version >= '3.9'" },
+    { name = "httpx", marker = "python_full_version >= '3.9'" },
+    { name = "lxml", marker = "python_full_version >= '3.9'" },
+    { name = "platformdirs", marker = "python_full_version >= '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/25/4a/4f8fc3a81dab25fd4230d86a571e37a525c5dcf2cab05c25e89cd2f1b08d/oembedpy-0.8.1.tar.gz", hash = "sha256:f96ef8bcc7b1f738dd80d5423bde8538458152aa5487118c443c1cdfb15019ee", size = 12559 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d0/c6/844fc11d2971364389a1998eaa282557b73479a1c83540ff0808901c9dbe/oembedpy-0.8.1-py3-none-any.whl", hash = "sha256:63d708e738a0c6e157a2db4f09ecb616c479b6247f44805c38b26f75e023f808", size = 15685 },
 ]
 
 [[package]]
@@ -810,7 +837,8 @@ name = "slides"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "oembedpy" },
+    { name = "oembedpy", version = "0.6.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
+    { name = "oembedpy", version = "0.8.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
     { name = "rst-pypi-ref" },
     { name = "sphinx-revealjs", extra = ["screenshot"] },
     { name = "sphinxcontrib-blockdiag" },
@@ -828,7 +856,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "oembedpy", specifier = "~=0.4.0" },
+    { name = "oembedpy", specifier = ">=0.4.0" },
     { name = "rst-pypi-ref", specifier = "~=0.1.1" },
     { name = "sphinx-revealjs", extras = ["screenshot"], specifier = "~=2.5.0" },
     { name = "sphinxcontrib-blockdiag", specifier = "~=3.0.0" },

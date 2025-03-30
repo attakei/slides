@@ -6,7 +6,7 @@ authors = [
     { name = "Kazuya Takei", email = "myself@attakei.net" }
 ]
 dependencies = [
-    "oembedpy~=0.4.0",
+    "oembedpy>=0.4.0",
     "sphinx-revealjs[screenshot]~=2.5.0",
     "sphinxcontrib-sass~=0.3.4",
     "sphinxcontrib-budoux~=0.1.5",

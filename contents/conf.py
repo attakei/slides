@@ -24,7 +24,7 @@ release = "2022.12.23"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "oembedpy.ext.sphinx",
+    "oembedpy.adapters.sphinx",
     "rst_pypi_ref.sphinx",
     "sphinx.ext.todo",
     "sphinx_revealjs",
