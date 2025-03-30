@@ -6,7 +6,7 @@ import os
 import sys
 from pathlib import Path
 
-from sphinx_revealjs.themes import get_theme_path
+from sphinx_revealjs.utils import get_revealjs_path
 
 ext_dir = str(Path(__file__).parents[1] / "extensions")
 if sys.path[-1] != ext_dir:
@@ -63,11 +63,11 @@ revealjs_script_conf = {
 }
 revealjs_script_plugins = [
     {
-        "src": "revealjs4/plugin/highlight/highlight.js",
+        "src": "revealjs/plugin/highlight/highlight.js",
         "name": "RevealHighlight",
     },
     {
-        "src": "revealjs4/plugin/notes/notes.js",
+        "src": "revealjs/plugin/notes/notes.js",
         "name": "RevealNotes",
     },
 ]
@@ -83,7 +83,7 @@ budoux_targets = ["h1", "h2", "h3"]
 sass_src_dir = "_sass"
 sass_out_dir = "_static/css"
 sass_include_paths = [
-    get_theme_path("sphinx_revealjs") / "static/revealjs4/css/theme",
+    get_revealjs_path() / "css" / "theme",
 ]
 sass_targets = {
     "pyconjp-2022-lt.scss": "pyconjp-2022-lt.css",

@@ -840,7 +840,8 @@ dependencies = [
     { name = "oembedpy", version = "0.6.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
     { name = "oembedpy", version = "0.8.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
     { name = "rst-pypi-ref" },
-    { name = "sphinx-revealjs", extra = ["screenshot"] },
+    { name = "sphinx-revealjs", version = "3.0.5", source = { registry = "https://pypi.org/simple" }, extra = ["screenshot"], marker = "python_full_version < '3.9'" },
+    { name = "sphinx-revealjs", version = "3.1.4", source = { registry = "https://pypi.org/simple" }, extra = ["screenshot"], marker = "python_full_version >= '3.9'" },
     { name = "sphinxcontrib-blockdiag" },
     { name = "sphinxcontrib-budoux" },
     { name = "sphinxcontrib-sass" },
@@ -858,7 +859,7 @@ dev = [
 requires-dist = [
     { name = "oembedpy", specifier = ">=0.4.0" },
     { name = "rst-pypi-ref", specifier = "~=0.1.1" },
-    { name = "sphinx-revealjs", extras = ["screenshot"], specifier = "~=2.5.0" },
+    { name = "sphinx-revealjs", extras = ["screenshot"], specifier = ">=2.5.0" },
     { name = "sphinxcontrib-blockdiag", specifier = "~=3.0.0" },
     { name = "sphinxcontrib-budoux", specifier = "~=0.1.5" },
     { name = "sphinxcontrib-sass", specifier = "~=0.3.4" },
@@ -927,21 +928,46 @@ wheels = [
 
 [[package]]
 name = "sphinx-revealjs"
-version = "2.5.1"
+version = "3.0.5"
 source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "docutils" },
-    { name = "packaging" },
-    { name = "sphinx" },
+resolution-markers = [
+    "python_full_version < '3.9'",
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dd/11/81951a39b6f823f118a61e4ab8c30d814cadfbf97623508eece9435d8ea9/sphinx-revealjs-2.5.1.tar.gz", hash = "sha256:8613c99915269c3fb20667bff3983cfac5bc3b9311d60c08be1cb6872c434fb2", size = 2348567 }
+dependencies = [
+    { name = "docutils", marker = "python_full_version < '3.9'" },
+    { name = "packaging", marker = "python_full_version < '3.9'" },
+    { name = "sphinx", marker = "python_full_version < '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/79/9d/bcbebb2a71465945c1264d9855fdb3bc07c0fba93cb83b90e1eefbfd532b/sphinx_revealjs-3.0.5.tar.gz", hash = "sha256:7121568d3e2f0e22cf524b3305c951d8b6bb26b13fd665241bc1eabd640de03d", size = 2441906 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0c/3c/b001bc1d10176847ed569de4473e6bae236951eb99a1f4dded2d2fdfc6d1/sphinx_revealjs-2.5.1-py2.py3-none-any.whl", hash = "sha256:2e39bddc512f3fcb74c3a182921ec07cf624bb0d3a839a07e3c1c51a21f1c039", size = 2277527 },
+    { url = "https://files.pythonhosted.org/packages/12/28/f6bc446b26d9ece4c591a0c3d26193b985826f9f726b55a5c0741947f8e8/sphinx_revealjs-3.0.5-py3-none-any.whl", hash = "sha256:b19412d214339f47517884dde67ef8d0dcd9c367c2b41bd96666407009b21376", size = 2375548 },
 ]
 
 [package.optional-dependencies]
 screenshot = [
-    { name = "playwright" },
+    { name = "playwright", marker = "python_full_version < '3.9'" },
+]
+
+[[package]]
+name = "sphinx-revealjs"
+version = "3.1.4"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.9'",
+]
+dependencies = [
+    { name = "docutils", marker = "python_full_version >= '3.9'" },
+    { name = "packaging", marker = "python_full_version >= '3.9'" },
+    { name = "sphinx", marker = "python_full_version >= '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2e/5d/0fb1dec21c20b53d7537ecc15678ee85ab67a7209ab96ba50a2b453321de/sphinx_revealjs-3.1.4.tar.gz", hash = "sha256:39e5931e36f5654e96130c8ac1550d366cdf3d66cfb0d41ec7e664a0da0d5466", size = 3981483 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/74/2800d7292b1d0b6b7127c5e31566908bba373f2cb40ce6e9d4ca69feccce/sphinx_revealjs-3.1.4-py3-none-any.whl", hash = "sha256:1accfb8f3469df2298f84d0d0c7bc8e30ea10fbe74a4c17c723b913ee6a7cd79", size = 2376055 },
+]
+
+[package.optional-dependencies]
+screenshot = [
+    { name = "playwright", marker = "python_full_version >= '3.9'" },
 ]
 
 [[package]]
