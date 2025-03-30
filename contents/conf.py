@@ -60,7 +60,6 @@ revealjs_script_conf = {
     "hash": True,
     "center": False,
     "transition": "none",
-
 }
 revealjs_script_plugins = [
     {
@@ -94,7 +93,7 @@ sass_targets = {
     "my-solarized-nijibox.scss": "my-solarized-nijibox.css",
     "my-solarized-nijibox-tr.scss": "my-solarized-nijibox-tr.css",
     "default.scss": "default.css",
-    "sphinxconjp-2018.scss": "sphinxconjp-2018.css"
+    "sphinxconjp-2018.scss": "sphinxconjp-2018.css",
 }
 
 # sphinxext-opengraph
