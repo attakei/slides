@@ -1,0 +1,83 @@
+@layer reset, base, theme, custom;
+@import url("../../pygments.css") layer(base);
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+  layer(custom);
+@import url("../../revealjs/dist/theme/simple.css") layer(theme);
+@import url("../../revealjs/plugin/highlight/monokai.css") layer(theme);
+
+@layer custom {
+  :root {
+    --font-family: "Poppins";
+    --r-main-font: "Poppins";
+    --r-heading-font: "Poppins";
+    --r-heading-size: 3em;
+    --r-heading1-size: 2.5em;
+  }
+
+  * {
+    text-transform: none !important;
+  }
+
+  .reveal .slides {
+  	p code {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-top: 0.1em;
+      padding-bottom: 0.1em;
+  		background-color: black;
+  		color: white;
+  	}
+    section {
+      text-align: left;
+      h1 {
+        padding-top: 1em;
+      }
+      section:has(h1) {
+        dl {
+          position: absolute;
+          right: 1em;
+        }
+      }
+      section:has(h2) {
+        text-align: center;
+        h2 {
+          padding-top: 2em;
+        }
+        * {
+          color: white;
+        }
+      }
+      section {
+        h3 {
+          padding-top: 1em;
+          margin-bottom: 1em;
+        }
+        .text-center {
+          text-align: center;
+        }
+        .inner-presentation {
+          text-align: center;
+          iframe[src='https://attakei.github.io/the-slide/index.html'] {
+            aspect-ratio: 4 / 3;
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+    }
+  }
+  div.flex {
+    display: -webkit-flex;
+    display: flex;
+    div.size-1 {
+      width: 50% !important;
+      -webkit-flex: 1;
+      flex: 1;
+    }
+    div.size-2 {
+      // width: 66.6666666% !important;
+      -webkit-flex: 2;
+      flex: 2;
+  	}
+  }
+}
