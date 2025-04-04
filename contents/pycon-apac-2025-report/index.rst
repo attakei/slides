@@ -8,7 +8,7 @@
 
 .. revealjs-slide::
     :conf: {"width":1920,"height":1080}
-    :theme: css/pycon-apac-2025-report.css
+    :theme: css/theme/pycon-apac-2025-report.css
 
 .. revealjs-section::
    :data-background-image: _images/1.png
