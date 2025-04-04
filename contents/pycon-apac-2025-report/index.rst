@@ -69,6 +69,7 @@
 
    .. oembed:: https://attakei.github.io/the-slide/
 
+`別ウィンドウで見たい人はこちらから <https://attakei.github.io/the-slide/>`_
 ※ある種の「持ちネタ」といえます。
 
 【英語】が「できる」か？
@@ -144,6 +145,13 @@
 * なんだったら、そのまま英語プロポーザルの素案をもらってしまいましょう。
 * 余談：AIチャットって比較的「全肯定」スタイルなので、「イケるのでは？」と思えるようになります。
 
+こちらも
+--------
+
+* `ChatGPTに肯定してもらいつつ壁打ちしている様子 <https://chatgpt.com/share/675eaaf7-bb00-8003-863b-25ba811bd387>`_
+* `採択されなかった方のプロポーザル <https://pretalx.com/pycon-apac-2025/talk/review/JYY9TJTLNHLKYGSBUQEP8NUVM7UBPPWK>`_
+* `採択された方のプロポーザル <https://pretalx.com/pycon-apac-2025/talk/review/9UBPZ9QP9BGDLX7QXUJCSJ93WTJ9UGL8>`_
+
 提出後の動き
 ============
 
@@ -204,6 +212,20 @@
    :data-background-image: _images/2.png
 
 1ヶ月ほど前の自分へ。
+
+当日の様子
+----------
+
+.. container:: flex
+
+   .. container:: size-1
+
+      .. oembed:: https://x.com/pythonph/status/1896077296118780158
+
+   .. container:: size-1
+
+      無事に話せました。
+
 
 「英語が苦手」なりのフォローはしてもらえる
 ------------------------------------------
