@@ -1,6 +1,6 @@
-==============
-(タイトル未定)
-==============
+=================================
+海外開催のPyConに初登壇をしてみて
+=================================
 
 .. revealjs-fragments::
 
@@ -39,7 +39,7 @@
 
     .. container:: size-2
 
-        * 職業：ソフトウェアエンジニア
+        * 職業：ソフトウェアエンジニア(歴としては20年弱)
 
           * 株式会社ニジボックス
           * 割と全域担当
@@ -69,6 +69,7 @@
 
    .. oembed:: https://attakei.github.io/the-slide/
 
+※ある種の「持ちネタ」といえます。
 
 【英語】が「できる」か？
 ------------------------
@@ -113,6 +114,12 @@
 プロポーザル提出 
 ================
 
+.. revealjs-vertical::
+   :data-background-image: _images/4.png
+
+.. revealjs-section::
+   :data-background-image: _images/2.png
+
 4ヶ月前の自分へ
 
 提出しないと何も始まらない
@@ -139,6 +146,12 @@
 
 提出後の動き
 ============
+
+.. revealjs-vertical::
+   :data-background-image: _images/4.png
+
+.. revealjs-section::
+   :data-background-image: _images/2.png
 
 主に3ヶ月前の自分へ
 
@@ -184,6 +197,12 @@
 発表当日の話
 ============
 
+.. revealjs-vertical::
+   :data-background-image: _images/4.png
+
+.. revealjs-section::
+   :data-background-image: _images/2.png
+
 1ヶ月ほど前の自分へ。
 
 「英語が苦手」なりのフォローはしてもらえる
@@ -196,6 +215,10 @@
   * QA飛ばす提案をしてくれるとか。
   * 「その発表を実のあるものにしたい」という点では、立場は同じ。
 
+.. revealjs-fragments::
+
+   同行メンバーがいるなら、頼ると良いかなと。
+
 大事なこと
 ----------
 
@@ -206,7 +229,17 @@
 
 ことだけは忘れないようにしましょう。
 
-.. revealjs-break::
+おわりに
+========
+
+.. revealjs-vertical::
+   :data-background-image: _images/4.png
+
+.. revealjs-section::
+   :data-background-image: _images/2.png
+
+目標設定と結果
+--------------
 
 他の発表をちゃんと聞く技量も余裕もなかったので、
 今回は「ちゃんと発表する」に時間を使いました。
@@ -214,9 +247,24 @@
 少なくとも、自分判定でそれだけは達成できたので、
 「良い体験だった」「また行く機会を作りたくなった」とは間違いなく言えます。
 
-課題感
-------
+.. revealjs-fragments::
 
-英語技能のうち「聞く」が全く伸びなかったので、それに派生する事項が厄介でした。
+   英語技能のうち「聞く」が全く伸びなかったので、それに派生する事項が厄介でした。
+   次回以降は改善したいところ。（とりあえずDuolingoは継続中）
 
-次回以降は改善したいところ。
+.. revealjs-break::
+   :notitle:
+
+|
+|
+|
+
+**「挑戦しようと思えばいつでも始められる」**
+
+という体験をできたかなと思います。
+
+PyCon TW 2025 プロポーザル準備中
+================================
+
+.. revealjs-section::
+   :data-background-image: _images/2.png
