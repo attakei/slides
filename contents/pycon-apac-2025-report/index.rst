@@ -1,3 +1,6 @@
+:og:image: _images/ogp/pycon-apac-2025-report/index.png
+:og:description: PyCon APAC 2025 参加報告会で参加者枠として発表したプレゼンテーションです。
+
 =================================
 海外開催のPyConに初登壇をしてみて
 =================================
