@@ -2,14 +2,16 @@
 @import url("../../pygments.css") layer(base);
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
   layer(custom);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap')
+  layer(custom);
 @import url("../../revealjs/dist/theme/simple.css") layer(theme);
 @import url("../../revealjs/plugin/highlight/monokai.css") layer(theme);
 
 @layer custom {
   :root {
-    --font-family: "Poppins";
-    --r-main-font: "Poppins";
-    --r-heading-font: "Poppins";
+    --font-family: "Poppins", "Noto Sans JP", sans-serif;
+    --r-main-font: "Poppins", "Noto Sans JP", sans-serif;
+    --r-heading-font: "Poppins", "Noto Sans JP", sans-serif;
     --r-heading-size: 3em;
     --r-heading1-size: 2.5em;
   }
