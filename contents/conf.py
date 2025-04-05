@@ -28,10 +28,11 @@ extensions = [
     "rst_pypi_ref.sphinx",
     "sphinx.ext.todo",
     "sphinx_revealjs",
+    "sphinx_revealjs.ext.oembed",
+    "sphinx_revealjs.ext.sass",
     "sphinx_revealjs.ext.screenshot",
     "sphinxcontrib.blockdiag",
     "sphinxcontrib.budoux",
-    "sphinxcontrib.sass",
     "sphinxemoji.sphinxemoji",
     "sphinxext.opengraph",
     "sphinxnotes.strike",
@@ -75,26 +76,13 @@ revealjs_script_plugins = [
 # -- Options for extensions
 # sphinx-revealjs.ext.screenshot
 revealjs_screenshot_excludes = ["*/?_*"]
+# sphinx_revealjs.ext.sass
+revealjs_sass_src_dir = "_sass"
+revealjs_sass_out_dir = "_static/css"
+revealjs_sass_auto_targets = True
 
 # sphinxcontrib-budoux
 budoux_targets = ["h1", "h2", "h3"]
-
-# sphinxcontrib-sass
-sass_src_dir = "_sass"
-sass_out_dir = "_static/css"
-sass_include_paths = [
-    get_revealjs_path() / "css" / "theme",
-]
-sass_targets = {
-    "pyconjp-2022-lt.scss": "pyconjp-2022-lt.css",
-    "my-solarized.scss": "my-solarized.css",
-    "my-solarized-large.scss": "my-solarized-large.css",
-    "my-solarized-large-udgothic.scss": "my-solarized-large-udgothic.css",
-    "my-solarized-nijibox.scss": "my-solarized-nijibox.css",
-    "my-solarized-nijibox-tr.scss": "my-solarized-nijibox-tr.css",
-    "default.scss": "default.css",
-    "sphinxconjp-2018.scss": "sphinxconjp-2018.css",
-}
 
 # sphinxext-opengraph
 ogp_site_url = os.environ.get("SITE_URLBASE", "http://localhost:8000/")
@@ -104,3 +92,6 @@ ogp_custom_meta_tags = [
     '<meta name="twitter:site" content="@attakei" >',
 ]
 ogp_enable_meta_description = True
+
+# sphinx.revealjs.ext.oembed
+revealjs_oembed_urlbase = ogp_site_url[:-1]

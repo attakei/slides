@@ -841,7 +841,7 @@ dependencies = [
     { name = "oembedpy", version = "0.8.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
     { name = "rst-pypi-ref" },
     { name = "sphinx-revealjs", version = "3.0.5", source = { registry = "https://pypi.org/simple" }, extra = ["screenshot"], marker = "python_full_version < '3.9'" },
-    { name = "sphinx-revealjs", version = "3.1.4", source = { registry = "https://pypi.org/simple" }, extra = ["screenshot"], marker = "python_full_version >= '3.9'" },
+    { name = "sphinx-revealjs", version = "3.2.0", source = { registry = "https://pypi.org/simple" }, extra = ["screenshot"], marker = "python_full_version >= '3.9'" },
     { name = "sphinxcontrib-blockdiag" },
     { name = "sphinxcontrib-budoux" },
     { name = "sphinxcontrib-sass" },
@@ -950,7 +950,7 @@ screenshot = [
 
 [[package]]
 name = "sphinx-revealjs"
-version = "3.1.4"
+version = "3.2.0"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.9'",
@@ -960,9 +960,9 @@ dependencies = [
     { name = "packaging", marker = "python_full_version >= '3.9'" },
     { name = "sphinx", marker = "python_full_version >= '3.9'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2e/5d/0fb1dec21c20b53d7537ecc15678ee85ab67a7209ab96ba50a2b453321de/sphinx_revealjs-3.1.4.tar.gz", hash = "sha256:39e5931e36f5654e96130c8ac1550d366cdf3d66cfb0d41ec7e664a0da0d5466", size = 3981483 }
+sdist = { url = "https://files.pythonhosted.org/packages/3c/8e/7d087365ff4f70fe665370c7542ef349c29d0988f2c2135983f13556f6c7/sphinx_revealjs-3.2.0.tar.gz", hash = "sha256:3d1098eaf923b4c0d1f049ee8039b1e7ec55aac669461514f9edf0c2c517cc27", size = 3993633 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/74/2800d7292b1d0b6b7127c5e31566908bba373f2cb40ce6e9d4ca69feccce/sphinx_revealjs-3.1.4-py3-none-any.whl", hash = "sha256:1accfb8f3469df2298f84d0d0c7bc8e30ea10fbe74a4c17c723b913ee6a7cd79", size = 2376055 },
+    { url = "https://files.pythonhosted.org/packages/f1/6f/27d68997ed5de25445b151fd89cb968801ab355aaa8a3240793d44a77102/sphinx_revealjs-3.2.0-py3-none-any.whl", hash = "sha256:0c19290687a68c835a4653c3e679528b64393731759dc72e8e5361367c5e41e9", size = 2390494 },
 ]
 
 [package.optional-dependencies]
