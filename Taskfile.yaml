@@ -1,0 +1,27 @@
+version: '3'
+
+includes:
+  contents:
+    taskfile: 'https://github.com/attakei/workspace-configs.git//projects/sphinx-doc/Taskfile.yaml?tag=v0.5.1'
+    flatten: true
+    vars:
+      RUN_PYTHON: 'uv run'
+      SPHINX_ROOT_DIR: 'contents'
+      SPHINX_SOURCE_DIR: ''
+      SPHINX_OUTPUT_DIR: '_build'
+      SPHINX_DEFAULT_BUILDER: 'dirrevealjs'
+
+tasks:
+  setup:
+    desc: 'Setup workspace'
+    cmds:
+      - 'uv sync --frozen'
+      # NOTE: It will show warnings. Please install deps manually for your distribution.
+      - 'uv run playwright install'
+      - 'lefthook install'
+  verify:
+    desc: 'Verify environment by all procs'
+    cmds:
+      - 'lefthook run pre-commit --all-files'
+      # TODO: Enable after edit conf.py
+      # - task: 'build-linkcheck'
