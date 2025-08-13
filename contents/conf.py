@@ -49,6 +49,18 @@ language = "ja"
 html_theme = "alabaster"
 html_static_path = ["_static"]
 
+# -- Options for linkcheck builder
+linkcheck_anchors_ignore_for_url = [
+    r"https://github.com/.*",
+]
+linkcheck_ignore = [
+    r"https://attakei.github.io/sphinx-revealjs/en/_images/ogp/index.png",
+    r"https://camo.githubusercontent.com/67ab0dc35ff7b5c57c210baeb98b60f2618166f629172b278dbb6e394a0a1e10/68747470733a2f2f68616b696d2d7374617469632e73332e616d617a6f6e6177732e636f6d2f72657665616c2d6a732f6c6f676f2f76312f72657665616c2d626c61636b2d746578742e737667",
+    r"https://github.com/attakei/sphinx-revealjs/actions/runs/6607604413",
+    r"https://github.dom/attakei/",
+    r"https://pretalx.com/pycon-apac-2025/talk/review/JYY9TJTLNHLKYGSBUQEP8NUVM7UBPPWK",
+]
+
 # -- Options for REVEALJS output
 revealjs_static_path = ["_static"]
 revealjs_css_files = [

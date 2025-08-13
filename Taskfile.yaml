@@ -23,5 +23,4 @@ tasks:
     desc: 'Verify environment by all procs'
     cmds:
       - 'lefthook run pre-commit --all-files'
-      # TODO: Enable after edit conf.py
-      # - task: 'build-linkcheck'
+      - task: 'build-linkcheck'
