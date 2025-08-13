@@ -6,5 +6,4 @@ remotes:
   - git_url: 'https://github.com/attakei/workspace-configs'
     ref: 'v0.5.1'
     configs:
-      # TODO: Enable after install doc8
-      # - 'projects/sphinx-doc/lefthook.yaml'
+      - 'projects/sphinx-doc/lefthook.yaml'
