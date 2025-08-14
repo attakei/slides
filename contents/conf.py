@@ -6,7 +6,6 @@ import os
 import sys
 from pathlib import Path
 
-from sphinx_revealjs.utils import get_revealjs_path
 
 ext_dir = str(Path(__file__).parents[1] / "extensions")
 if sys.path[-1] != ext_dir:
