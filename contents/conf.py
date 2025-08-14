@@ -58,6 +58,7 @@ linkcheck_ignore = [
     r"https://github.com/attakei/sphinx-revealjs/actions/runs/6607604413",
     r"https://github.dom/attakei/",
     r"https://pretalx.com/pycon-apac-2025/talk/review/JYY9TJTLNHLKYGSBUQEP8NUVM7UBPPWK",
+    r"https://zenn.dev/attakei/scraps/a0814e242c864d",
 ]
 
 # -- Options for REVEALJS output
