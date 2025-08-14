@@ -6,9 +6,9 @@ includes:
     flatten: true
     vars:
       RUN_PYTHON: 'uv run'
-      SPHINX_ROOT_DIR: 'contents'
-      SPHINX_SOURCE_DIR: ''
-      SPHINX_OUTPUT_DIR: '_build'
+      SPHINX_ROOT_DIR: ''
+      SPHINX_SOURCE_DIR: 'contents'
+      SPHINX_OUTPUT_DIR: 'build'
       SPHINX_DEFAULT_BUILDER: 'dirrevealjs'
 
 tasks:
