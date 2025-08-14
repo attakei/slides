@@ -5,16 +5,34 @@ on:
   pull_request:
   workflow_dispatch:
 
+env:
+  UV_NO_SYNC: 1
+  TASK_X_REMOTE_TASKFILES: 1
+
 jobs:
   try-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v2
-      - name: Setup env
+      - uses: actions/checkout@v5
+      - uses: aquaproj/aqua-installer@d1fe50798dbadd4eb5b98957290ca175f6b4870f # v4.0.2
+        with:
+          aqua_version: v2.51.2
+      - name: Setup workspace
         run: |
-          uv sync --frozen
-          uv run playwright install
+          task --yes setup
       - name: Build site contents
         run: |
-          uv run make dirrevealjs dirhtml
+          task --yes build-dirrevealjs build-dirhtml
+  lint-contents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: aquaproj/aqua-installer@d1fe50798dbadd4eb5b98957290ca175f6b4870f # v4.0.2
+        with:
+          aqua_version: v2.51.2
+      - name: Setup workspace
+        run: |
+          task --yes setup
+      - name: Check sources
+        run: |
+          task --yes verify
