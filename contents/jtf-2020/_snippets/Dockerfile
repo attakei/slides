@@ -1,4 +1,4 @@
-FROM python:3.8-slim as build
+FROM python:3.13-slim as build
 
 RUN mkdir -p /build/out
 WORKDIR /build
