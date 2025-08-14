@@ -24,6 +24,7 @@ dev = [
     "doc8>=1.1.2",
     "esbonio>=0.16.4",
     "ruff>=0.12.8",
+    "sphinx-autobuild>=2024.10.3",
     "ty>=0.0.1a17",
 ]
 
