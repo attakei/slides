@@ -23,3 +23,16 @@ jobs:
       - name: Build site contents
         run: |
           task --yes build-dirrevealjs build-dirhtml
+  lint-contents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: aquaproj/aqua-installer@d1fe50798dbadd4eb5b98957290ca175f6b4870f # v4.0.2
+        with:
+          aqua_version: v2.51.2
+      - name: Setup workspace
+        run: |
+          task --yes setup
+      - name: Check sources
+        run: |
+          task --yes verify
