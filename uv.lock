@@ -579,14 +579,14 @@ wheels = [
 
 [[package]]
 name = "rst-pypi-ref"
-version = "0.1.1"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/10/9a/8359aa020fdce20843117b3ca91d021250b2876ea42349fc47cb0c8b8d37/rst-pypi-ref-0.1.1.tar.gz", hash = "sha256:1b29b90c1c097827cde04503939b339dacc30256337e35e98295dd6f021ef56c", size = 9405, upload-time = "2022-12-22T15:28:14.709Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0e/20/12a92850baaa4e9a0aef02e1a6d77b80e1c1fc567d5a1b5cb9dbc1dd2481/rst_pypi_ref-0.4.0.tar.gz", hash = "sha256:8a9a98b0a38c697190f199a77ac72ad32d4923d6b759763a79443b165b8adb93", size = 13615, upload-time = "2024-02-21T16:14:32.431Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/48/6926029a0c05f38b12dac1e5b90b3ffddffeccebf211fc43462e274a1605/rst_pypi_ref-0.1.1-py2.py3-none-any.whl", hash = "sha256:da7c873b3a2c8833d791e00378e4fa13f4ccd9f9abb74807aeaae91a6c0d2db3", size = 6543, upload-time = "2022-12-22T15:28:13.28Z" },
+    { url = "https://files.pythonhosted.org/packages/18/09/16a062d0987297092e00d4831fff13c472a14ca7c742b646fddda5a3632d/rst_pypi_ref-0.4.0-py3-none-any.whl", hash = "sha256:c252c95379b9d558dcb548e0682f8bcff977fd70e603f330311ee89e301d992c", size = 8040, upload-time = "2024-02-21T16:14:31.211Z" },
 ]
 
 [[package]]
@@ -651,7 +651,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "oembedpy", specifier = ">=0.4.0" },
-    { name = "rst-pypi-ref", specifier = "~=0.1.1" },
+    { name = "rst-pypi-ref", specifier = "~=0.4.0" },
     { name = "sphinx-revealjs", extras = ["screenshot"], specifier = ">=2.5.0" },
     { name = "sphinxcontrib-blockdiag", specifier = "~=3.0.0" },
     { name = "sphinxcontrib-budoux", specifier = "~=0.1.5" },
