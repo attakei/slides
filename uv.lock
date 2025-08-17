@@ -656,7 +656,7 @@ requires-dist = [
     { name = "sphinxcontrib-blockdiag", specifier = "~=3.0.0" },
     { name = "sphinxcontrib-budoux", specifier = "~=0.1.5" },
     { name = "sphinxcontrib-sass", specifier = "~=0.3.4" },
-    { name = "sphinxemoji", specifier = "~=0.2.0" },
+    { name = "sphinxemoji", specifier = "~=0.3.1" },
     { name = "sphinxext-opengraph", specifier = "~=0.12.0" },
     { name = "sphinxnotes-strike" },
 ]
@@ -857,12 +857,15 @@ wheels = [
 
 [[package]]
 name = "sphinxemoji"
-version = "0.2.0"
+version = "0.3.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "sphinx" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5e/d4/03eeedb6346625ec40bd4ab16f3d4971f4f3db6f635dc8b2d0ad605368eb/sphinxemoji-0.2.0.tar.gz", hash = "sha256:27861d1dd7c6570f5e63020dac9a687263f7481f6d5d6409eb31ecebcc804e4c", size = 44431, upload-time = "2021-10-06T11:55:37.672Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/47/36/12a061ef2a2c2001c1b083d456db680f59074aef39f9cdd83a7937a4d626/sphinxemoji-0.3.1.tar.gz", hash = "sha256:23ecff1f1e765393e49083b45386b7da81ced97c9a18a1dfd191460a97da3b11", size = 46377, upload-time = "2024-01-18T18:07:44.53Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/95/9f/c872bbf4a2588b700a972d48c6e39087e4d33b3e76c563b4902e5abfbf13/sphinxemoji-0.3.1-py3-none-any.whl", hash = "sha256:dae483695f8d1e90a28a6e9bbccc08d256202afcc1d0fbd33b51b3b4352d439e", size = 46074, upload-time = "2024-01-18T18:07:42.496Z" },
+]
 
 [[package]]
 name = "sphinxext-opengraph"
