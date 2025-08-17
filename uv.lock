@@ -657,7 +657,7 @@ requires-dist = [
     { name = "sphinxcontrib-budoux", specifier = "~=0.1.5" },
     { name = "sphinxcontrib-sass", specifier = "~=0.3.4" },
     { name = "sphinxemoji", specifier = "~=0.2.0" },
-    { name = "sphinxext-opengraph", specifier = "~=0.7.4" },
+    { name = "sphinxext-opengraph", specifier = "~=0.12.0" },
     { name = "sphinxnotes-strike" },
 ]
 
@@ -866,14 +866,14 @@ sdist = { url = "https://files.pythonhosted.org/packages/5e/d4/03eeedb6346625ec4
 
 [[package]]
 name = "sphinxext-opengraph"
-version = "0.7.5"
+version = "0.12.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "sphinx" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/8e/7c835a3247f350b6b1e38d738d0c132074e0d17d4349634409f920e08b3c/sphinxext-opengraph-0.7.5.tar.gz", hash = "sha256:caf061fb3bea8d8f2228f7a1d55cb8f6809f2b5c806bf3600e21ce1a3cf906d1", size = 27212, upload-time = "2023-01-03T21:54:04.353Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/76/8f/6c0d869ac0fd25ae90510350800312f80bd0618d19f093e70fca3d670b32/sphinxext_opengraph-0.12.0.tar.gz", hash = "sha256:38bc17addd5d8bccc148daa7c6c13845c329c2687378ee8fdfc81942cc72a79d", size = 1026784, upload-time = "2025-08-04T21:53:36.478Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f2/eb/9ac8de50b67ca607f31c95facfdc499b8ce5a3c696f6691b6a9213d84f23/sphinxext_opengraph-0.7.5-py3-none-any.whl", hash = "sha256:d7fcf48b5d6477292492c0c7da6ddc469e3657159952e2a0a0df074f54aad99e", size = 9152, upload-time = "2023-01-03T21:54:03.272Z" },
+    { url = "https://files.pythonhosted.org/packages/1b/26/8388918251df75086c7fcd9cd7e231f08774e3f4ce6fc911ff105a87a300/sphinxext_opengraph-0.12.0-py3-none-any.whl", hash = "sha256:f60892d5fa4cc25889b0baa5ec1c778a8ef87aa7c1f4bb5f93f11befdb0d7b9c", size = 1004063, upload-time = "2025-08-04T21:53:34.641Z" },
 ]
 
 [[package]]
