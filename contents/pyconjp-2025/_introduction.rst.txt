@@ -1,0 +1,32 @@
+はじめに
+========
+
+.. revealjs-section::
+    :data-background-color: rgb(36, 165, 61)
+
+お前誰よ
+--------
+
+.. container:: flex
+
+    .. container:: size-1
+
+        .. image:: https://www.attakei.net/_static/images/icon-attakei@2x.png
+
+        武居 和也 (Kazuya Takei)
+
+    .. container:: size-2
+
+        * 職業：ソフトウェアエンジニア
+
+          * 株式会社ニジボックス
+          * 割と全域担当
+
+        * **趣味: OSS作家**
+
+          * Sphinx拡張の製造マシーン
+          * 外部の規格やツールをPythonプロジェクトに使えるように
+
+話すこと
+--------
+

@@ -1,0 +1,8 @@
+(発表時限定)
+============
+
+.. revealjs-section::
+    :data-background-color: rgb(36, 165, 61)
+
+何かあれば
+----------
