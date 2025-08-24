@@ -5,7 +5,10 @@
 import os
 import sys
 from pathlib import Path
+from typing import TYPE_CHECKING
 
+if TYPE_CHECKING:
+    from sphinx.application import Sphinx
 
 ext_dir = str(Path(__file__).parents[1] / "extensions")
 if sys.path[-1] != ext_dir:
@@ -29,7 +32,6 @@ extensions = [
     "sphinx_revealjs",
     "sphinx_revealjs.ext.oembed",
     "sphinx_revealjs.ext.sass",
-    "sphinx_revealjs.ext.screenshot",
     "sphinxcontrib.blockdiag",
     "sphinxcontrib.budoux",
     "sphinxemoji.sphinxemoji",
@@ -107,3 +109,9 @@ ogp_enable_meta_description = True
 
 # sphinx.revealjs.ext.oembed
 revealjs_oembed_urlbase = ogp_site_url[:-1]
+
+
+def setup(app: Sphinx):
+    # 処理コストが高いので、スクリーンショットの出力を限定条件下のみにする。
+    if "screenshot" in app.tags:
+        app.setup_extension("sphinx_revealjs.ext.screenshot")
