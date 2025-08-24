@@ -34,7 +34,7 @@ Cloud RunとFastAPIで、ChatBotをミニマムスタートしよう
 
 という話をします。
 
-.. include:: 1_whoami.rst
+.. include:: 1_whoami.rst.txt
 
 免責
 ----
@@ -46,29 +46,29 @@ Cloud RunとFastAPIで、ChatBotをミニマムスタートしよう
 
 .. ここまでで3分ぐらい想定
 
-.. include:: 2_slack-chatops.rst
+.. include:: 2_slack-chatops.rst.txt
 
-.. include:: 3_slack-slashcommand.rst
+.. include:: 3_slack-slashcommand.rst.txt
 
 -> Next ->
 ==========
 
 .. ここまでで8分ぐらいが理想
 
-.. include:: 4_fastapi-localenv.rst
+.. include:: 4_fastapi-localenv.rst.txt
 
-.. include:: 5_fastapi-introduction.rst
+.. include:: 5_fastapi-introduction.rst.txt
 
-.. include:: 6_fastapi-chatbot-1.rst
+.. include:: 6_fastapi-chatbot-1.rst.txt
 
-.. include:: 7_fastapi-chatbot-2.rst
+.. include:: 7_fastapi-chatbot-2.rst.txt
 
 -> Next ->
 ==========
 
 .. ここまでで20分ぐらいが理想
 
-.. include:: 8_cloudrun.rst
+.. include:: 8_cloudrun.rst.txt
 
 まとめ
 ======
@@ -90,4 +90,4 @@ Cloud RunとFastAPIで、ChatBotをミニマムスタートしよう
 * ``whois``
 * ``openssl`` (HTTPS validation)
 
-.. include:: 9_links.rst
+.. include:: 9_links.rst.txt
