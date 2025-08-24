@@ -630,7 +630,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "oembedpy" },
     { name = "rst-pypi-ref" },
-    { name = "sphinx-revealjs", extra = ["screenshot"] },
+    { name = "sphinx-revealjs" },
     { name = "sphinxcontrib-blockdiag" },
     { name = "sphinxcontrib-budoux" },
     { name = "sphinxcontrib-sass" },
@@ -647,12 +647,15 @@ dev = [
     { name = "sphinx-autobuild" },
     { name = "ty" },
 ]
+publish = [
+    { name = "sphinx-revealjs", extra = ["screenshot"] },
+]
 
 [package.metadata]
 requires-dist = [
     { name = "oembedpy", specifier = ">=0.4.0" },
     { name = "rst-pypi-ref", specifier = "~=0.4.0" },
-    { name = "sphinx-revealjs", extras = ["screenshot"], specifier = ">=2.5.0" },
+    { name = "sphinx-revealjs", specifier = ">=2.5.0" },
     { name = "sphinxcontrib-blockdiag", specifier = "~=3.0.0" },
     { name = "sphinxcontrib-budoux", specifier = "~=0.1.5" },
     { name = "sphinxcontrib-sass", specifier = "~=0.3.4" },
@@ -669,6 +672,7 @@ dev = [
     { name = "sphinx-autobuild", specifier = ">=2024.10.3" },
     { name = "ty", specifier = ">=0.0.1a17" },
 ]
+publish = [{ name = "sphinx-revealjs", extras = ["screenshot"], specifier = ">=2.5.0" }]
 
 [[package]]
 name = "sniffio"

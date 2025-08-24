@@ -19,11 +19,10 @@ jobs:
           aqua_version: v2.51.2
       - name: Setup workspace
         run: |
-          task --yes setup
+          task --yes setup-publish
       - name: Build site contents
         run: |
-          task --yes build-dirrevealjs build-dirhtml
-          cp build/dirhtml/index.html build/dirrevealjs/index.html
+          task --yes build-publish
         env:
           SITE_URLBASE: ${{ secrets.SITE_URLBASE }}
       - uses: actions/upload-artifact@v4
