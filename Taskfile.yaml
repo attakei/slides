@@ -2,7 +2,7 @@ version: '3'
 
 includes:
   contents:
-    taskfile: 'https://github.com/attakei/workspace-configs.git//projects/sphinx-doc/Taskfile.yaml?tag=v0.5.1'
+    taskfile: 'https://github.com/attakei/workspace-configs.git//projects/sphinx-doc/Taskfile.yaml?tag=v0.6.0'
     flatten: true
     vars:
       RUN_PYTHON: 'uv run'
