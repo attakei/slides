@@ -1,0 +1,14 @@
+はじめに
+========
+
+お前誰よ
+--------
+
+.. todo:: 後で書く
+
+.. only:: talk
+
+    .. revealjs-break::
+        :notitle:
+        :data-background-image: _images/postdev-2025.png
+        :data-background-size: contain

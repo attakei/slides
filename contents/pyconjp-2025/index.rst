@@ -1,3 +1,4 @@
+========
 OSS≒盆栽
 ========
 
@@ -12,3 +13,6 @@ OSS≒盆栽
 :event: PyCon JP 2025
 :hashtags:
   `#pyconjp <https://twitter.com/hashtag/pyconjp>`_
+ 
+.. include:: _introduction.rst.txt
+.. include:: _finish.rst.txt
