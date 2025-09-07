@@ -2,7 +2,7 @@ version: '3'
 
 includes:
   contents:
-    taskfile: 'https://github.com/attakei/workspace-configs.git//projects/sphinx-doc/Taskfile.yaml?tag=v0.5.1'
+    taskfile: 'https://github.com/attakei/workspace-configs.git//projects/sphinx-doc/Taskfile.yaml?tag=v0.6.0'
     flatten: true
     vars:
       RUN_PYTHON: 'uv run'
@@ -16,11 +16,28 @@ tasks:
     desc: 'Setup workspace'
     cmds:
       - 'uv sync --frozen'
-      # NOTE: It will show warnings. Please install deps manually for your distribution.
-      - 'uv run playwright install'
       - 'lefthook install'
   verify:
     desc: 'Verify environment by all procs'
     cmds:
       - 'lefthook run pre-commit --all-files'
       - task: 'build-linkcheck'
+  setup-publish:
+    desc: 'Setup workspace for publishing'
+    cmds:
+      - 'uv sync --frozen --group=publish'
+      # NOTE: It will show warnings. Please install deps manually for your distribution.
+      - 'uv run playwright install'
+  build-publish:
+    desc: 'Build contents for publishing'
+    cmds:
+      - task: 'build-dirrevealjs'
+        vars:
+          CLI_ARGS: '--tag screenshot'
+      - task: 'build-dirhtml'
+      - |
+        {{if eq OS "windows"}}
+          xcopy build\\dirhtml\\index.html build\\dirrevealjs\\ /Y
+        {{else}}
+          cp build/dirhtml/index.html build/dirrevealjs/index.html
+        {{end}}

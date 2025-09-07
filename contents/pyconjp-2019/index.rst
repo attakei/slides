@@ -18,9 +18,9 @@ Ansibleを通じて「べき等性」を理解してみよう
 
 .. 90sec
 
-.. include:: 1_whoami-201909-public.rst
+.. include:: 1_whoami-201909-public.rst.txt
 
-.. include:: 2_whoami-201909-private.rst
+.. include:: 2_whoami-201909-private.rst.txt
 
 
 話すこと(目標)
