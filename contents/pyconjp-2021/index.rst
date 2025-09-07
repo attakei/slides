@@ -15,14 +15,14 @@ PyPICloudを使ったプライベートレジストリの構築
 :speaker: Kazuya Takei / @attakei / NIJIBOX Co., Ltd.
 :hashtag: `#pyconjp <https://twitter.com/hashtag/pyconjp>`_
 
-.. include:: 1_introduction.rst
+.. include:: 1_introduction.rst.txt
 
-.. include:: 2_distribute-packages.rst
+.. include:: 2_distribute-packages.rst.txt
 
-.. include:: 3_about-pypicloud.rst
+.. include:: 3_about-pypicloud.rst.txt
 
-.. include:: 4_using-pypicloud.rst
+.. include:: 4_using-pypicloud.rst.txt
 
-.. include:: 5_used-pypicloud.rst
+.. include:: 5_used-pypicloud.rst.txt
 
-.. include:: 6_conclusion.rst
+.. include:: 6_conclusion.rst.txt

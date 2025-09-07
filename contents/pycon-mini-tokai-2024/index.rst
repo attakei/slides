@@ -16,9 +16,9 @@ pytestでRust製CLIをe2eテストしてみよう
 :event: PyCon mini 東海 2024
 :hashtags: `#pycontokai <https://x.com/hashtag/pycontokai>`_
 
-.. include:: _overview.rst
-.. include:: _age-cli.rst
-.. include:: _rust-pros-and-cons.rst
-.. include:: _about-pytest.rst
-.. include:: _pytest-for-e2e.rst
-.. include:: _conclusion.rst
+.. include:: _overview.rst.txt
+.. include:: _age-cli.rst.txt
+.. include:: _rust-pros-and-cons.rst.txt
+.. include:: _about-pytest.rst.txt
+.. include:: _pytest-for-e2e.rst.txt
+.. include:: _conclusion.rst.txt

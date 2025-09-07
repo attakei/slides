@@ -11,8 +11,8 @@ PyPIデビュー 2023
 :event: PyCon APAC 2023
 :hashtags: `#pyconapac <https://twitter.com/hashtag/pyconapac>`_ , `#pyconapac_4 <https://twitter.com/hashtag/pyconapac_4>`_
 
-.. include:: _overview.rst
-.. include:: _about-pypi.rst
-.. include:: _packaging.rst
-.. include:: _with-github.rst
-.. include:: _conclusion.rst
+.. include:: _overview.rst.txt
+.. include:: _about-pypi.rst.txt
+.. include:: _packaging.rst.txt
+.. include:: _with-github.rst.txt
+.. include:: _conclusion.rst.txt

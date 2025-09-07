@@ -13,16 +13,16 @@
 :Event: `July Tech Festa 2021 <https://techfesta.connpass.com/event/213069/>`_
 :Hashtag: `#JTF2021_a <https://twitter.com/hashtag/JTF2021_a>`_
 
-.. .. include:: 0-pdf-edition.rst
+.. .. include:: 0-pdf-edition.rst.txt
 
-.. include:: 1_introduction.rst
+.. include:: 1_introduction.rst.txt
 
-.. include:: 2_about-plugin.rst
+.. include:: 2_about-plugin.rst.txt
 
-.. include:: 3_plugin-as-oss.rst
+.. include:: 3_plugin-as-oss.rst.txt
 
-.. include:: 4_develop-plugin.rst
+.. include:: 4_develop-plugin.rst.txt
 
-.. include:: 5_cautions.rst
+.. include:: 5_cautions.rst.txt
 
-.. include:: 6_conclusion.rst
+.. include:: 6_conclusion.rst.txt
