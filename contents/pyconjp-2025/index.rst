@@ -14,7 +14,6 @@ OSS≒盆栽
 :hashtags:
   `#pyconjp <https://twitter.com/hashtag/pyconjp>`_
 
-
 .. include:: _introduction.rst.txt
 
 .. .. include:: _overview.rst.txt
@@ -28,3 +27,5 @@ OSS≒盆栽
 .. only:: talking
 
     .. include:: _special.rst.txt
+
+.. include:: _finish.rst.txt

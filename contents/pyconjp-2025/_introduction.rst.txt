@@ -27,6 +27,17 @@
           * Sphinx拡張の製造マシーン
           * 外部の規格やツールをPythonプロジェクトに使えるように
 
+About NIJIBOX
+-------------
+
+.. todo:: 後で書く
+
+.. only:: talk
+
+    .. revealjs-break::
+        :notitle:
+        :data-background-image: _images/postdev-2025.png
+        :data-background-size: contain
+
 話すこと
 --------
-
