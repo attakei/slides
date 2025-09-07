@@ -1,0 +1,39 @@
+お前誰よ
+--------
+
+.. container:: flex
+
+    .. container:: two-of-third
+
+        Kazuya Takei
+
+        * attakei (X, GitHub, etc)
+        * 株式会社ニジボックス
+        * **趣味: OSS作家** <= こっち
+
+          * ライブラリ・拡張系を作りがち
+          * Sphinx拡張生成マシーン
+          * Sphinxでプレゼンテーションしたがる人
+
+    .. container:: one-of-third
+
+        .. figure:: https://attakei.net/_static/images/icon-attakei@2x.png
+            :alt: 著者近影
+
+株式会社ニジボックス
+--------------------
+
+.. container:: flex
+
+    .. container:: size-2
+
+        .. figure:: ../pyconjp-2022/_images/logo-corporate.png
+            :width: 80%
+
+        https://www.nijibox.jp
+
+    .. container:: size-3
+
+
+        ニジボックス は「Grow all」をミッションに、企業やサービスの成長に向き合い続けるリクルートグループのデザイン会社です。
+        お客様のビジネスの成長をUI UXのデザインプロセスから開発・運用・改善までワンストップでサポートします。
