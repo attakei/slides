@@ -37,7 +37,7 @@ jobs:
       - uses: actions/download-artifact@v5
         with:
           name: site-contents
-          path: public
+          path: build/dirrevealjs
       - name: Publish
         uses: cloudflare/wrangler-action@v3
         with:
