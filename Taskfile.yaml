@@ -47,3 +47,15 @@ tasks:
       - task: 'dev'
         vars:
           CLI_ARGS: '--ignore "contents/_static/css" --tag talk'
+  wrangler:
+    desc: 'Run Cloudflare CLI'
+    cmds:
+      - 'bun x wrangler@4.34.0 {{.TASK_ARGS}} {{.CLI_ARGS}}'
+  deploy:
+    desc: 'Deploy contents to Cloudflare Workers'
+    cmds:
+      - task: 'setup-publish'
+      - task: 'build-publish'
+      - task: 'wrangler'
+        vars:
+          TASK_ARGS: 'deploy'
