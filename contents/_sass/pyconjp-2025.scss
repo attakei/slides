@@ -12,7 +12,7 @@
 html {
   * {
     color-profile: sRGB;
-    rendering-intent: auto;  
+    rendering-intent: auto;
   }
 }
 
@@ -43,7 +43,7 @@ $green:     #859900;
 $mainColor: $black;
 $headingColor: $black;
 $headingTextShadow: none;
-$backgroundColor: $pyconjpColorSecondary;
+$backgroundColor: $base3;
 $linkColor: $black;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $magenta;
@@ -56,7 +56,13 @@ $headingFont: 'Noto Sans JP', sans-serif;
 @import "template/theme";
 @import "./_layout";
 // ---------------------------------------------
-body { font-size: 150%;}
+body {
+  font-size: 150%;
+}
+.reveal-viewport {
+  background: linear-gradient(180deg, $pyconjpColorSecondary 50%, $pyconjpColorPrimary 50%);
+  background-attachment: fixed;
+}
 .reveal {
   pre {
     font-size: 0.7em;
@@ -66,12 +72,7 @@ body { font-size: 150%;}
     }
   }
   .slides {
-    section:not(:first-child) {
-      section:first-child {
-        h2, p {
-          color: $white;
-        }
-      }
-    }
+    background-color: $backgroundColor;
+    border: solid 0.5em rgba($backgroundColor, .2);
   }
 }

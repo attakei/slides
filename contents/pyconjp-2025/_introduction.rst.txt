@@ -1,9 +1,6 @@
 はじめに
 ========
 
-.. revealjs-section::
-    :data-background-color: rgb(36, 165, 61)
-
 .. include:: ../_snippets/aboutme-nijibox.rst.txt
 
 .. only:: talk
