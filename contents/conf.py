@@ -26,6 +26,7 @@ release = "2022.12.23"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "atsphinx.qrcode",
     "oembedpy.adapters.sphinx",
     "rst_pypi_ref.sphinx",
     "sphinx.ext.todo",

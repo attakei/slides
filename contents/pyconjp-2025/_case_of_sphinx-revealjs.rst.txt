@@ -1,0 +1,78 @@
+実例: sphinx-revealjs
+=====================
+
+.. revealjs-note::
+
+    5分ぐらい
+
+「こいうこともある」というケース
+
+どんなOSS？
+-----------
+
+https://attakei.github.io/sphinx-revealjs/
+
+* コミット: 2018-10-27 → Now
+* 最初のPyPI: v0.3.1 (2018-11-27)
+* 最初のStable: v1.0.0 (2021-01-03)
+* 最近のStable: v3.2.0 (2025-04-03)
+
+.. revealjs-break::
+
+https://attakei.github.io/sphinx-revealjs/
+
+* | Sphinxの仕組みから、Reveal.jsプレゼンテーションを生成する。 
+  |
+* | この発表資料もsphinx-revealjs製。
+  |
+* | テスト周りは、基本的にSphinxのテストーツールを使ったe2e枠がほとんど。
+  |
+
+.. revealjs-break::
+
+* | Sphinxの仕組みから、Reveal.jsプレゼンテーションを生成する。 
+  | →単機能ライブラリ。
+* | この発表資料もsphinx-revealjs製。
+  | →自分が使いたくて作った。
+* | テスト周りは、基本的にSphinxのテストーツールを使ったe2e枠がほとんど。
+  | →内部の精緻なところまで担保していない。
+
+地味な需要が発生したり
+----------------------
+
+* GitPitch がサービス終了したタイミングで、移行して使い始めた人。
+* 類似ライブラリのメンテナンスが停滞したので、移行して使い始めた人。
+  
+海外で使われるケースがあったり
+------------------------------
+
+https://live.osgeo.org/ja/presentation.html
+
+.. image:: _images/osgeo-live.png
+    :width: 80%
+    :align: center
+
+.. revealjs-break::
+
+https://nekmo.github.io/micropython-presentacion/
+
+.. image:: _images/nekmo.png
+    :width: 80%
+    :align: center
+
+PyCon JP 2025では
+-----------------
+
+発表者が使っている…かも？
+
+.. only:: talk
+
+  .. container:: r-stack
+
+      .. revealjs-fragments::
+
+          .. image:: _images/user-1.png
+
+          .. image:: _images/user-3.png
+
+          .. image:: _images/user-5.png
