@@ -46,6 +46,3 @@ OSS≒盆栽
 .. include:: _case_of_sphinx-revealjs.rst.txt
 
 .. include:: _conclusion.rst.txt
-
-.. include:: _finish.rst.txt
-
