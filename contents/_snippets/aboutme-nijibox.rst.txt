@@ -14,6 +14,7 @@
           * ライブラリ・拡張系を作りがち
           * Sphinx拡張生成マシーン
           * Sphinxでプレゼンテーションしたがる人
+          * Sphinxで技術同人誌を書く人
 
     .. container:: one-of-third
 

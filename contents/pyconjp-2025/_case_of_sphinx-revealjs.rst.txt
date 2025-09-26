@@ -63,7 +63,7 @@ https://nekmo.github.io/micropython-presentacion/
 PyCon JP 2025では
 -----------------
 
-約1割の発表者が使っている…かも？
+発表者が使っている…かも？
 
 .. only:: talk
 
@@ -73,10 +73,6 @@ PyCon JP 2025では
 
           .. image:: _images/user-1.png
 
-          .. image:: _images/user-2.png
-
           .. image:: _images/user-3.png
-
-          .. image:: _images/user-4.png
 
           .. image:: _images/user-5.png
