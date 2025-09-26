@@ -33,7 +33,7 @@
 
 .. revealjs-break::
 
-実例: qrcode
+実例: :pypi:`qrcode`
 
 テキストなどを受け取り。QRコードのPNGやSVGを生成する…
 
@@ -45,7 +45,7 @@
 
 .. revealjs-break::
 
-| 実例: qrcode
+| 実例: :pypi:`qrcode`
 |
 
 .. code-block:: python
@@ -82,7 +82,7 @@
 
 .. revealjs-break::
 
-実例: oEmbdedPy
+実例: :pypi:`oEmbedPy`
 
 * サイトURLからoEmbedコンテンツを取得するライブラリ。
 * SphinxドキュメントにoEmbed対応コンテンツを楽に埋め込みたくて作った。
