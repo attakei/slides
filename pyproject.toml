@@ -15,6 +15,7 @@ dependencies = [
     "rst-pypi-ref~=0.4.0",
     "sphinxcontrib-blockdiag~=3.0.0",
     "sphinxnotes-strike",
+    "atsphinx-qrcode>=0.2.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.13"

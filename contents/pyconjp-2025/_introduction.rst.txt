@@ -7,8 +7,16 @@
 
     .. revealjs-break::
         :notitle:
-        :data-background-image: _images/postdev-2025.png
-        :data-background-size: contain
+
+    .. image:: _images/postdev-2025.png
+        :width: 100%
+        :align: center
 
 話すこと
 --------
+
+* そもそも「趣味のOSS開発」って？
+* 無理をしないための取り組み方
+* 「こいうこともある」という実例
+
+※技巧的な話はほとんど出ません。

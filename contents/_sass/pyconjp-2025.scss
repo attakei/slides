@@ -72,7 +72,13 @@ body {
     }
   }
   .slides {
-    background-color: $backgroundColor;
-    border: solid 0.5em rgba($backgroundColor, .2);
+    background-color: rgba($backgroundColor, .8);
+    border: solid 0.5em rgba($backgroundColor, .8);
+  }
+  $sizes: 1,2,3,4,5,6;
+  @each $size in $sizes {
+    div.space-#{$size} {
+      height: $size * $mainFontSize;
+    }
   }
 }

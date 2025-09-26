@@ -1,2 +1,72 @@
 実例: sphinx-revealjs
 =====================
+
+.. revealjs-note::
+
+    5分ぐらい
+
+「こいうこともある」というケース
+
+どんなOSS？
+-----------
+
+* | Sphinxの仕組みから、Reveal.jsプレゼンテーションを生成する。 
+  |
+* | この発表資料もsphinx-revealjs製。
+  |
+* | テスト周りは、基本的にSphinxのテストーツールを使ったe2e枠がほとんど。
+  |
+* | 
+
+.. revealjs-break::
+
+* | Sphinxの仕組みから、Reveal.jsプレゼンテーションを生成する。 
+  | →単機能ライブラリ。
+* | この発表資料もsphinx-revealjs製。
+  | →自分が使いたくて作った。
+* | テスト周りは、基本的にSphinxのテストーツールを使ったe2e枠がほとんど。
+  | →内部の精緻なところまで担保していない。
+* | 
+  | →機能を足したりするたびに、「とりあえず」でリリースしている。
+
+地味な需要が発生したり
+----------------------
+
+* GitPitch がサービス終了したタイミングで、移行して使い始めた人が。
+* 類似ライブラリのメンテナンスが停滞したので、移行して使い始めた人が。
+  
+海外で使われるケースがあったり
+------------------------------
+
+https://live.osgeo.org/ja/presentation.html
+
+.. image:: _images/osgeo-live.png
+    :width: 80%
+    :align: center
+
+.. revealjs-break::
+
+https://nekmo.github.io/micropython-presentacion/
+
+.. image:: _images/nekmo.png
+    :width: 80%
+    :align: center
+
+PyCon JP 2025では
+-----------------
+
+約1割の発表者が使っている…かも？
+
+.. container:: r-stack
+
+    .. revealjs-fragments::
+
+        .. image:: _images/user-1.png
+
+        .. image:: _images/user-2.png
+
+        .. image:: _images/user-3.png
+
+        .. image:: _images/user-4.png
+
+        .. image:: _images/user-5.png
