@@ -1,6 +1,11 @@
 趣味としてのOSS開発
 ===================
 
+趣味でOSS開発をやっていた結果
+-----------------------------
+
+.. image:: _images/pypi-profile.png
+
 OSSを分類する
 -------------
 
@@ -48,6 +53,10 @@ OSSを分類する(2)
 
     とはいえ、ハードルを感じがち。
 
+    * PyPIに公開するまではだいぶ楽になった…と思う。
+    * 「正しさ」みたいなものに囚われる？
+    * 「外からの評価」に対する懸念？
+
 .. revealjs-break::
     :notitle:
 
@@ -58,3 +67,8 @@ OSSを分類する(2)
 .. revealjs-fragments::
 
     ※人によっては「当たり前では」と思うかも。
+
+.. revealjs-break::
+    :notitle:
+
+.. oembed:: https://slides.attakei.net/pyconapac-2023/
