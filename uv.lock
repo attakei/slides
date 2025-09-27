@@ -656,6 +656,7 @@ dependencies = [
     { name = "atsphinx-qrcode" },
     { name = "oembedpy" },
     { name = "rst-pypi-ref" },
+    { name = "sphinx-nekochan" },
     { name = "sphinx-revealjs" },
     { name = "sphinxcontrib-blockdiag" },
     { name = "sphinxcontrib-budoux" },
@@ -682,6 +683,7 @@ requires-dist = [
     { name = "atsphinx-qrcode", specifier = ">=0.2.0" },
     { name = "oembedpy", specifier = ">=0.4.0" },
     { name = "rst-pypi-ref", specifier = "~=0.4.0" },
+    { name = "sphinx-nekochan", specifier = ">=0.3.4" },
     { name = "sphinx-revealjs", specifier = ">=2.5.0" },
     { name = "sphinxcontrib-blockdiag", specifier = "~=3.0.0" },
     { name = "sphinxcontrib-budoux", specifier = "~=0.1.5" },
@@ -771,6 +773,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a5/2c/155e1de2c1ba96a72e5dba152c509a8b41e047ee5c2def9e9f0d812f8be7/sphinx_autobuild-2024.10.3.tar.gz", hash = "sha256:248150f8f333e825107b6d4b86113ab28fa51750e5f9ae63b59dc339be951fb1", size = 14023, upload-time = "2024-10-02T23:15:30.172Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/18/c0/eba125db38c84d3c74717008fd3cb5000b68cd7e2cbafd1349c6a38c3d3b/sphinx_autobuild-2024.10.3-py3-none-any.whl", hash = "sha256:158e16c36f9d633e613c9aaf81c19b0fc458ca78b112533b20dafcda430d60fa", size = 11908, upload-time = "2024-10-02T23:15:28.739Z" },
+]
+
+[[package]]
+name = "sphinx-nekochan"
+version = "0.3.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e5/0d/c04bb8f84349435dd522a990a4a16595857993652d9402ca14e0598df648/sphinx_nekochan-0.3.4.tar.gz", hash = "sha256:6128305a4117adc57af7b24385bcb45eb5e69f36c8792929cdcc8350e9c72d01", size = 5429898, upload-time = "2025-03-28T11:03:53.012Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/84/58/41b5bca9f49b6a4dec9548eaaafb07323a1a9d8cc4ddd4d24cd38a72fb8c/sphinx_nekochan-0.3.4-py3-none-any.whl", hash = "sha256:0654c7ca14ffdbabf1a0ac75da7c0872bd374bb0ab21a3a8a4bdcf9745333788", size = 5427882, upload-time = "2025-03-28T11:03:50.616Z" },
 ]
 
 [[package]]

@@ -74,6 +74,15 @@ body {
   .slides {
     background-color: rgba($backgroundColor, .95);
     border: solid 0.5em rgba($backgroundColor, .8);
+    .content-center {
+      text-align: center;
+    }
+    .content-right {
+      text-align: right;
+    }
+    .flip-horizontal img {
+        transform: scaleX(-1);
+    }
   }
   $sizes: 1,2,3,4,5,6;
   @each $size in $sizes {

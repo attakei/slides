@@ -16,6 +16,7 @@ dependencies = [
     "sphinxcontrib-blockdiag~=3.0.0",
     "sphinxnotes-strike",
     "atsphinx-qrcode>=0.2.0",
+    "sphinx-nekochan>=0.3.4",
 ]
 readme = "README.md"
 requires-python = ">= 3.13"

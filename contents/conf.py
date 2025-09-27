@@ -30,6 +30,7 @@ extensions = [
     "oembedpy.adapters.sphinx",
     "rst_pypi_ref.sphinx",
     "sphinx.ext.todo",
+    "sphinx_nekochan",
     "sphinx_revealjs",
     "sphinx_revealjs.ext.oembed",
     "sphinx_revealjs.ext.sass",
