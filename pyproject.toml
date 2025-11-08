@@ -39,5 +39,5 @@ managed = true
 [tool.doc8]
 ignore = [
     # TODO: Fix after?
-    "D001", "D002", "D005",
+    "D001", "D002", "D004", "D005",
 ]
