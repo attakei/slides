@@ -125,6 +125,8 @@ oEmbedPy
 "Morden" oEmbed Python client
 -----------------------------
 
+https://oembedpy.readthedocs.io/
+
 * Return dataclass object
 * Support https://oembed.com/providers.json
 * Support auto discovery
@@ -161,6 +163,10 @@ Integration for document
 ------------------------
 
 Sphinx integration
+
+.. code-block:: console
+
+    pip install 'oembedpy[sphinx]'
 
 .. code-block:: python
     :caption: conf.py
@@ -214,6 +220,10 @@ Q: **I don't use Sphinx!!!**
 .. revealjs-break::
 
 MkDocs Integration
+
+.. code-block:: console
+
+    pip install 'oembedpy[mkdocs]'
 
 .. code-block:: yaml
     :caption: config.yaml
