@@ -39,7 +39,7 @@ jobs:
           name: site-contents
           path: build/dirrevealjs
       - name: Publish
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           wranglerVersion: '4.34.0'
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
